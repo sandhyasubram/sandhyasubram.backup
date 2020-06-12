@@ -1,0 +1,34 @@
+@import "../../../../constants/_variables.scss";
+
+.menu-item {
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: $white;
+    padding-right: 20px;
+    span {
+      color: $white;
+      &.active {
+        border-bottom: 1px solid $white;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .menu-item {
+    padding: 20px 0;
+    a {
+      padding: 0;
+      span {
+        font-size: $h2;
+        text-transform: uppercase;
+        color: $primary-red;
+        &.active {
+          color: $white;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}
