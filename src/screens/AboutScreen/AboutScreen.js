@@ -8,7 +8,7 @@ export default class AboutScreen extends React.Component {
     return (
       <div className="about-me-wrapper">
         <Header path={pathname} />
-        About Screen
+        About Me
       </div>
     );
   }
