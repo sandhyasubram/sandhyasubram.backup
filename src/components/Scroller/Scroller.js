@@ -9,7 +9,6 @@ const Scroller = props => {
       <div
         className={`scroller ${props.alignment} ${props.color}`}
         onClick={() => {
-          console.log("scroller clicked");
           props.onClick();
         }}
       >

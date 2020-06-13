@@ -8,10 +8,11 @@ const Tile = props => {
     <div className="tile-wrapper">
       <div className="tile-content">
         <img className="tile-image" src={IMAGE_SOURCE} alt={TITLE} />
-        <div className="hover-text">
-          {TITLE}
+        <div className="tile-overlay">
+          <div className="hover-text">
+            {TITLE}
+          </div>
         </div>
-        <div className="tile-overlay"></div>
       </div>
     </div>
   );
