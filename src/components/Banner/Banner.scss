@@ -17,8 +17,9 @@
       & .inner-content:first-child {
         font-size: $extraLarge;
         padding: 20px 0;
+        letter-spacing: $space_large;
       }
-      font-size: $h2;
+      font-size: $h4;
       padding: 15px 0;
     }
   }

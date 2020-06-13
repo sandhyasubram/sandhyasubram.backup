@@ -28,7 +28,7 @@ const Strings = {
     },
     SCREENS: {
       HOME: {
-        BANNER_TEXT: ["Tangent Kitty", "Not a real kitty *"]
+        BANNER_TEXT: ["TANGENTKITTY", "* might be an actual cat"]
       }
     }
   }

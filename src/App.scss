@@ -1,6 +1,11 @@
+$theme_font: 'Lato', sans-serif;
+
+
 * {
   box-sizing: border-box;
   body {
     margin: 0;
+    font-family: $theme_font;
+    font-weight: 400;
   }
 }
