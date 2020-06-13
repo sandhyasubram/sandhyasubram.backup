@@ -33,8 +33,11 @@
       .banner-text {
         padding: 0 10px;
         text-align: center;
-        & .inner-content:first-child {
-          font-size: $h3;
+        & .inner-content {
+          &:first-child {
+            font-size: $h3;
+          }
+          font-size: $regular15;
         }
       }
     }
