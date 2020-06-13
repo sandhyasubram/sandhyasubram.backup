@@ -1,0 +1,67 @@
+/* List CSS - START */
+
+@import "../../constants/_variables.scss";
+
+.list-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  &.two {
+    .tiles {
+      width: 50%;
+      background-color: $white;
+    }
+  }
+  &.three {
+    .tiles {
+      width: calc(100% / 12 * 4);
+      max-width: calc(100% / 12 * 4);
+      background-color: $white;
+    }
+  }
+  &.four {
+    .tiles {
+      width: 25%;
+      background-color: $white;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .list-wrapper {
+    &.three {
+      .tiles {
+        width: 50%;
+        max-width: 50%;
+      }
+    }
+    &.four {
+      .tiles {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .list-wrapper {
+    &.two {
+      .tiles {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    &.three {
+      .tiles {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    &.four {
+      .tiles {
+        width: 100%;
+      }
+    }
+  }
+}
+/* List CSS - END */

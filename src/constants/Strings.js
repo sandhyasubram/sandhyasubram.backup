@@ -28,7 +28,8 @@ const Strings = {
     },
     SCREENS: {
       HOME: {
-        BANNER_TEXT: ["TANGENTKITTY", "* might be an actual cat"]
+        BANNER_TEXT: ["TANGENTKITTY", "* might be an actual cat"],
+        INTRO_TEXT: "Hi, I'm Sandhya - a Chennai based UX Designer."
       }
     }
   }

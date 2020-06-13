@@ -1,0 +1,11 @@
+@import "../../constants/_variables.scss";
+
+.home-screen-wrapper {
+  .banner-container {
+    position: relative;
+  }
+  .intro-text {
+    font-size: $h3;
+    text-align: center;
+  }
+}
