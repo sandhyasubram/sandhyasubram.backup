@@ -9,6 +9,7 @@ const Header = props => {
   const [overlayMenu, setOverlayMenu] = useState("");
 
   const renderMobileMenu = () => {
+    document.querySelector("body").classList.toggle("menu-overlay");
     console.log(!mobileFlag);
     setMobileFlag(!mobileFlag);
     mobileMenu === "fa fa-close"
@@ -16,7 +17,7 @@ const Header = props => {
       : setMobileMenu("fa fa-close");
     overlayMenu === "active" ? setOverlayMenu("") : setOverlayMenu("active");
   };
-  
+
   return (
     <div className="header-wrapper">
       <div className="menu-wrapper">

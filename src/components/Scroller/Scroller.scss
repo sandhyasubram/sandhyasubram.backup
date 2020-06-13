@@ -1,0 +1,29 @@
+@import "../../constants/_variables.scss";
+
+.scroller-wrapper {
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  .scroller {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    &.light{
+        color: $white;
+    }
+    &.dark{
+        color: $black;
+    }
+    &.center {
+      justify-content: center;
+      align-items: center;
+    }
+    &.right {
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  &.bottom {
+    bottom: 0;
+  }
+}
