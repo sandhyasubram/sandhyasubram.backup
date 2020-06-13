@@ -8,11 +8,11 @@
     height: 100%;
     width: 100%;
     display: flex;
-    &.light{
-        color: $white;
+    &.light {
+      color: $white;
     }
-    &.dark{
-        color: $black;
+    &.dark {
+      color: $black;
     }
     &.center {
       justify-content: center;
@@ -22,7 +22,7 @@
       justify-content: flex-end;
       align-items: center;
     }
-    i{
+    i.scroll-icon {
       font-size: $h4;
     }
   }
