@@ -9,6 +9,8 @@ $dark-red-overlay: rgba(58, 0, 0, 0.9);
 
 /* Font Variables Declaration - Start */
 
+$theme_font: 'Lato', sans-serif;
+$theme_font_1: 'Montserrat', sans-serif;
 $extraLarge: 100px;
 $h1: 50px;
 $h2: 40px;
@@ -30,3 +32,8 @@ $minute: 6px;
 $space_large: 5px;
 
 /* Font Variables Declaration - End */
+
+body {
+    font-family: $theme_font;
+    font-weight: 300;
+}
