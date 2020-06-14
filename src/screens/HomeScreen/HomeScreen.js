@@ -6,9 +6,26 @@ import "./HomeScreen.scss";
 export default class HomeScreen extends React.Component {
   constructor(props) {
     super(props);
-    this.myRef = React.createRef();
+    this.state = {
+      scrollToTopButton: ""
+    };
+    this.content = React.createRef();
     this.scrollToContent = this.scrollToContent.bind(this);
   }
+
+  /**** LIFE CYCLE LISTENERS - START ****/
+
+  componentDidMount = () => {
+    window.addEventListener("scroll", this.checkScroller);
+  };
+
+  componentWillUnmount = () => {
+    window.removeEventListener("scroll", this.checkScroller);
+  };
+
+  /**** LIFE CYCLE LISTENERS - END ****/
+
+  /**** COMPONENT HELPER FUNCTIONS - START ****/
 
   renderIntroText = () => {
     return (
@@ -18,15 +35,33 @@ export default class HomeScreen extends React.Component {
     );
   };
 
+  checkScroller = event => {
+    if (event.target.scrollingElement.scrollTop >= 350) {
+      this.setState({
+        scrollToTopButton: "active"
+      });
+    } else if (this.state.scrollToTopButton === "active") {
+      this.setState({
+        scrollToTopButton: ""
+      });
+    }
+  };
+
   scrollToContent = () => {
-    if (this.myRef.current) {
-      window.scrollTo({
+    if (this.content.current) {
+      window.scroll({
         left: 0,
-        top: this.myRef.current.offsetTop,
+        top: this.content.current.offsetTop,
         behavior: "smooth"
       });
     }
   };
+
+  scrollToTop = () => {
+    window.scroll({ left: 0, top: 0, behavior: "smooth" });
+  };
+
+  /**** COMPONENT HELPER FUNCTIONS - END ****/
 
   render() {
     const { pathname } = (this.props && this.props.location) || null;
@@ -40,18 +75,26 @@ export default class HomeScreen extends React.Component {
             image={Images.SCREENS.HOME.PRIMARY_BANNER}
             bannerText={Strings.APPLICATION.SCREENS.HOME.BANNER_TEXT}
           />
-          <Scroller
-            position="bottom"
-            alignment="center"
-            onClick={() => this.scrollToContent()}
-          />
+          <div className="banner-scroller">
+            <Scroller onClick={() => this.scrollToContent()} />
+          </div>
         </div>
-        <div ref={this.myRef}>
+        <div ref={this.content}>
           <Container padding="padding-large">
             {this.renderIntroText()}
           </Container>
         </div>
         <List data={images} />
+        <div
+          className={`scroll-to-top-wrapper ${this.state.scrollToTopButton}`}
+        >
+          <Scroller
+            type="fa-angle-up"
+            onClick={() => {
+              this.scrollToTop();
+            }}
+          />
+        </div>
       </div>
     );
   }
