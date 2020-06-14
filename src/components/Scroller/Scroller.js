@@ -5,9 +5,9 @@ import "./Scroller.scss";
 
 const Scroller = props => {
   return (
-    <div className={`scroller-wrapper ${props.position}`}>
+    <div className={`scroller-wrapper`}>
       <div
-        className={`scroller ${props.alignment} ${props.color}`}
+        className={`scroller ${props.color}`}
         onClick={() => {
           props.onClick();
         }}
@@ -20,15 +20,11 @@ const Scroller = props => {
 
 Scroller.defaultProps = {
   type: "fa-angle-down",
-  position: "",
-  alignment: "",
   color: "light"
 };
 
 Scroller.propTypes = {
   type: PropTypes.string.isRequired,
-  position: PropTypes.string,
-  alignment: PropTypes.string,
   color: PropTypes.string
 };
 

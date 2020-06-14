@@ -1,11 +1,33 @@
 @import "../../constants/_variables.scss";
 
+$button-size: 50px;
+
 .home-screen-wrapper {
   .banner-container {
     position: relative;
+    .banner-scroller {
+      height: 10%;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
   }
   .intro-text {
     font-size: $h3;
     text-align: center;
+  }
+  .scroll-to-top-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: $button-size;
+    height: $button-size;
+    border-radius: 50%;
+    z-index: 4;
+    display: none;
+    background-color: $primary-red;
+    &.active {
+      display: block;
+    }
   }
 }
