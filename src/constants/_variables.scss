@@ -1,18 +1,38 @@
+@font-face {
+    font-family: alcub;
+    src: url(../assets/fonts/Alcubierre.otf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../assets/fonts/Quicksand_Light.otf);
+}
+
+@font-face {
+    font-family: lemonmilk;
+    src: url(../assets/fonts/LEMONMILK-Light.otf);
+}
 /* Color Variables Declaration - START */
 
 $white: #fff;
-$black: #000;
-$primary-red: #e04732;
-$dark-red-overlay: rgba(58, 0, 0, 0.9);
-$dark-blue-overlay: rgba(0, 35, 117, 0.7);
+$black: #444;
+$purple_overlay: rgba(80, 80, 127, 0.5);
+$purple_light: #8F8CA9;
+$purple_dark: #956D8E;
+
+// 272751
+
+// 50507f
+
 
 /* Color Variables Declaration - END */
 
 /* Font Variables Declaration - Start */
 
-$theme_font: 'Lato', sans-serif;
-$theme_font_1: 'Montserrat', sans-serif;
-$extraLarge: 100px;
+$theme_font: 'Roboto', sans-serif;
+// $theme_font_1: 'Montserrat', sans-serif;
+$theme_font_1: 'lemonmilk', sans-serif;
+$extraLarge: 70px;
 $h1: 50px;
 $h2: 40px;
 $h3: 30px;
@@ -30,7 +50,7 @@ $small: 12px;
 $smaller: 10px;
 $tiny: 8.5px;
 $minute: 6px;
-$space_large: 5px;
+$space_large: 7px;
 
 /* Font Variables Declaration - End */
 

@@ -8,12 +8,12 @@ const Menu = props => {
   return (
     <ul className="menu">
       <MenuItem
-        title="Work"
+        title="Portfolio"
         path={Strings.APPLICATION.ROUTES.HOME}
         active={props.path === Strings.APPLICATION.ROUTES.HOME ? "active" : ""}
       />
       <MenuItem
-        title="About"
+        title="Know me!"
         path={Strings.APPLICATION.ROUTES.ABOUT}
         active={props.path === Strings.APPLICATION.ROUTES.ABOUT ? "active" : ""}
       />

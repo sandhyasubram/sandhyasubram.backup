@@ -11,8 +11,7 @@ const Strings = {
         ABOUT: "About"
       }
     },
-    FOOTER: {
-      FOLLOW_ME: "Follow Me:",
+    SOCIAL: {
       QUICK_LINKS: {
         NAME: {
           LINKED_IN: "Linked In",
@@ -28,8 +27,8 @@ const Strings = {
     },
     SCREENS: {
       HOME: {
-        BANNER_TEXT: ["TANGENTKITTY", "* might be an actual cat"],
-        INTRO_TEXT: "Hi, I'm Sandhya - a Chennai based UX Designer."
+        BANNER_TEXT: ["TANGENTKITTY", ""],
+        INTRO_TEXT: "Hello! I'm Sandhya, a UX Designer based in India. I go by the name Tangentkitty on the web"
       }
     }
   }
