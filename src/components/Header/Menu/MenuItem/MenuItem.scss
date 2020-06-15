@@ -2,15 +2,31 @@
 
 .menu-item {
   list-style: none;
-  a {
+
+  &:hover {
+    animation: shake 0.8s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  a {  
+    padding: 10px 20px;
     text-decoration: none;
-    color: $white;
-    padding-right: 20px;
-    span {
-      color: $white;
-      &.active {
-        border-bottom: 1px solid $white;
-      }
+    text-transform: uppercase;
+    font-size: smaller;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    background: white;
+    border-radius: 4px;
+
+    span {     
+      color: $purple_dark;    
+    }
+
+    &.active {
+      display: none;
+      border-bottom: 1px solid $white;
     }
   }
 }
@@ -18,17 +34,38 @@
 @media only screen and (max-width: 990px) {
   .menu-item {
     padding: 20px 0;
+
     a {
       padding: 0;
+
       span {
         font-size: $h2;
         text-transform: uppercase;
-        color: $primary-red;
+        color: $purple_dark;
+
         &.active {
           color: $white;
           padding-bottom: 20px;
         }
       }
     }
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(3px, 0, 0);
   }
 }

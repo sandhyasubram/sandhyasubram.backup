@@ -1,7 +1,7 @@
 const Images = {
   SCREENS: {
     HOME: {
-      PRIMARY_BANNER: require("../assets/banner.jpg")
+      // PRIMARY_BANNER: require("../assets/banner.jpg")
     }
   },
   DESIGNS: [

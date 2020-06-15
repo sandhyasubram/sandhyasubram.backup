@@ -6,8 +6,8 @@ import "./MenuItem.scss";
 const MenuItem = props => {
   return (
     <li className="menu-item">
-      <Link to={props.path}>
-        <span className={props.active}>
+      <Link to={props.path} className={props.active}>
+        <span>
           {props.title}
         </span>
       </Link>
