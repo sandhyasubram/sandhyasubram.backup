@@ -1,37 +1,39 @@
 @font-face {
-    font-family: alcub;
-    src: url(../assets/fonts/Alcubierre.otf);
-}
-
-@font-face {
-    font-family: quicksand;
-    src: url(../assets/fonts/Quicksand_Light.otf);
-}
-
-@font-face {
     font-family: lemonmilk;
     src: url(../assets/fonts/LEMONMILK-Light.otf);
 }
+
+@font-face {
+    font-family: quan;
+    src: url(../assets/fonts/QanelasSoftDEMO-ExtraBold.otf);
+}
+
 /* Color Variables Declaration - START */
 
 $white: #fff;
 $black: #444;
-$purple_overlay: rgba(80, 80, 127, 0.5);
+$purple_overlay: rgba(180, 180, 227, 0.8);
 $purple_light: #8F8CA9;
-$purple_dark: #956D8E;
+$purple_medium: #6c6c9c;
+$purple_dark: #50507f;
 
-// 272751
-
-// 50507f
-
+$purple_gradient: radial-gradient(
+    circle at top left,
+    rgba(80, 80, 127, 1),
+    rgba(39, 39, 81, 1)
+  );
+$white_gradient: radial-gradient(
+    circle at top left,
+    #cbcbcb,
+    #f7f7f7
+  );
 
 /* Color Variables Declaration - END */
 
-/* Font Variables Declaration - Start */
+/* Font Variables Declaration - START */
 
-$theme_font: 'Roboto', sans-serif;
-// $theme_font_1: 'Montserrat', sans-serif;
-$theme_font_1: 'lemonmilk', sans-serif;
+$theme_font: 'quan', sans-serif;
+$content_font: 'Rubik', sans-serif;
 $extraLarge: 70px;
 $h1: 50px;
 $h2: 40px;
@@ -52,9 +54,5 @@ $tiny: 8.5px;
 $minute: 6px;
 $space_large: 7px;
 
-/* Font Variables Declaration - End */
+/* Font Variables Declaration - END */
 
-body {
-    font-family: $theme_font;
-    font-weight: 300;
-}

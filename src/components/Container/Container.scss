@@ -1,4 +1,10 @@
+@import "../../constants/_variables.scss";
+
 .container {
+  background: $purple_gradient;
+  display: flex;
+  justify-content: center;
+
   &.large {
     width: 100%;
   }
@@ -23,6 +29,9 @@
   &.padding-tiny {
     padding: 2px 10px;
   }
+  &.full {
+    height: 100vh;
+  }
 }
 @media only screen and (max-width: 990px) {
   .container {
@@ -40,3 +49,5 @@
     }
   }
 }
+
+

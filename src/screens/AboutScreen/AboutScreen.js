@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "../../components";
+import { Banner, Header, Container, List, Scroller } from "../../components";
 import "./AboutScreen.scss";
 
 export default class AboutScreen extends React.Component {
@@ -8,7 +8,7 @@ export default class AboutScreen extends React.Component {
     return (
       <div className="about-me-wrapper">
         <Header path={pathname} />
-        About Me
+        <Container padding="padding-medium" height="full"/>
       </div>
     );
   }
