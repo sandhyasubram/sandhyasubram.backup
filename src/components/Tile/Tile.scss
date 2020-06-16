@@ -2,10 +2,12 @@
 
 .tile-wrapper {
   height: 100%;
+
   .tile-content {
     position: relative;
     overflow: hidden;
     height: 100%;
+
     .tile-image {
       width: 100%;
       max-width: 100%;
@@ -14,6 +16,7 @@
       transition: all 0.3s ease;
       -webkit-transition: all .3s ease;
     }
+
     .tile-overlay {
       display: none;
       position: absolute;
@@ -23,9 +26,13 @@
       height: 100%;
       width: 100%;
       background-color: $purple-overlay;
+
       .hover-text {
         position: absolute;
-        font-size: $h3;
+        text-transform: uppercase;
+        font-size: $h6;
+        letter-spacing: 1px;
+        font-weight: 400;
         top: 50%;
         z-index: 4;
         color: $white;

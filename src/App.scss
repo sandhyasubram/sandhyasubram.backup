@@ -2,9 +2,25 @@
   box-sizing: border-box;
   body {
     margin: 0;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background: radial-gradient(
+      circle at top left,
+      #cbcbcb,
+      #f7f7f7
+    );
     -webkit-font-smoothing: antialiased;
+
     &.menu-overlay {
       overflow: hidden;
     }
   }
 }
+
+@media only screen and (max-width: 990px) {
+  body {
+    font-size: 8px;
+  }
+}
+
+

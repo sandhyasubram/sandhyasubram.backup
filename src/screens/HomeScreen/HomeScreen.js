@@ -7,7 +7,7 @@ export default class HomeScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      scrollToTopButton: ""
+      scrollToTopButton: "",
     };
     this.content = React.createRef();
     this.scrollToContent = this.scrollToContent.bind(this);
@@ -27,22 +27,14 @@ export default class HomeScreen extends React.Component {
 
   /**** COMPONENT HELPER FUNCTIONS - START ****/
 
-  renderIntroText = () => {
-    return (
-      <div className="intro-text">
-        {Strings.APPLICATION.SCREENS.HOME.INTRO_TEXT}
-      </div>
-    );
-  };
-
-  checkScroller = event => {
-    if (event.target.scrollingElement.scrollTop >= 350) {
+  checkScroller = (event) => {
+    if (event.target.scrollingElement.scrollTop >= 600) {
       this.setState({
-        scrollToTopButton: "active"
+        scrollToTopButton: "active",
       });
     } else if (this.state.scrollToTopButton === "active") {
       this.setState({
-        scrollToTopButton: ""
+        scrollToTopButton: "",
       });
     }
   };
@@ -52,7 +44,7 @@ export default class HomeScreen extends React.Component {
       window.scroll({
         left: 0,
         top: this.content.current.offsetTop,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
   };
@@ -72,17 +64,15 @@ export default class HomeScreen extends React.Component {
         <Header path={pathname} />
         <div className="banner-container">
           <Banner
-            image={Images.SCREENS.HOME.PRIMARY_BANNER}
             bannerText={Strings.APPLICATION.SCREENS.HOME.BANNER_TEXT}
+            links={Strings.APPLICATION.SOCIAL}
           />
-          <div className="banner-scroller">
+          {/* <div className="banner-scroller">
             <Scroller onClick={() => this.scrollToContent()} />
-          </div>
+          </div> */}
         </div>
         <div ref={this.content}>
-          <Container padding="padding-large">
-            {this.renderIntroText()}
-          </Container>
+          {/* <Container padding="padding-medium" links={Strings.APPLICATION.SOCIAL}/> */}
         </div>
         <List data={images} />
         <div

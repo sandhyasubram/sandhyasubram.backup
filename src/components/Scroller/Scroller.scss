@@ -2,12 +2,14 @@
 
 .scroller-wrapper {
   height: 100%;
+
   .scroller {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
     &.light {
       color: $white;
     }
