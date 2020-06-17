@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2880b7c.chunk.css",
+    "main.css": "/static/css/main.3319523a.chunk.css",
     "main.js": "/static/js/main.d0f0a4dc.chunk.js",
     "main.js.map": "/static/js/main.d0f0a4dc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
@@ -8,9 +8,9 @@
     "static/js/2.297cfa80.chunk.js": "/static/js/2.297cfa80.chunk.js",
     "static/js/2.297cfa80.chunk.js.map": "/static/js/2.297cfa80.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.186330fdf2f615c1c4be96ea579ae8d3.js": "/precache-manifest.186330fdf2f615c1c4be96ea579ae8d3.js",
+    "precache-manifest.7fc8853de56462927d7b7685f5990a54.js": "/precache-manifest.7fc8853de56462927d7b7685f5990a54.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a2880b7c.chunk.css.map": "/static/css/main.a2880b7c.chunk.css.map",
+    "static/css/main.3319523a.chunk.css.map": "/static/css/main.3319523a.chunk.css.map",
     "static/js/2.297cfa80.chunk.js.LICENSE.txt": "/static/js/2.297cfa80.chunk.js.LICENSE.txt",
     "static/media/HomeScreen.scss": "/static/media/QanelasSoftDEMO-ExtraBold.396e6a5e.otf",
     "static/media/cake.png": "/static/media/cake.a23c60a1.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.297cfa80.chunk.js",
-    "static/css/main.a2880b7c.chunk.css",
+    "static/css/main.3319523a.chunk.css",
     "static/js/main.d0f0a4dc.chunk.js"
   ]
 }
