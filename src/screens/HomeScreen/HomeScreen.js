@@ -102,6 +102,7 @@ export default class HomeScreen extends React.Component {
             }}
           />
         </div>
+        <div className="footer"> That's all folks! </div>
       </div>
     );
   }

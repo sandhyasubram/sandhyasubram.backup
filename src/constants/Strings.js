@@ -24,9 +24,9 @@ const Strings = {
     ]
   },
   IMAGE_CATEGORY: {
-    ALL: { NAME: "Show All", FILTER: "show-all" },
-    VECTOR: { NAME: "Vector", FILTER: "vector" },
-    WEB_DESIGN: { NAME: "Web Design", FILTER: "web-design" },
+    ALL: { NAME: "All", FILTER: "show-all" },
+    VECTOR: { NAME: "Design", FILTER: "vector" },
+    // WEB_DESIGN: { NAME: "Web", FILTER: "web-design" },
     ANIMATION: { NAME: "Animation", FILTER: "animation" }
   }
 };

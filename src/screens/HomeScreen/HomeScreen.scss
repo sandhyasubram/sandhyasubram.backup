@@ -17,8 +17,17 @@ $button-size: 50px;
     z-index: 7;
     display: none;
     background-color: $purple_dark;
+
     &.active {
       display: block;
+      text-shadow: $shadow1;
     }
+  }
+  .footer {
+    background: white;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 2.5rem;
   }
 }

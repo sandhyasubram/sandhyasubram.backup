@@ -9,8 +9,8 @@ const List = props => {
     let productList = [];
     if (props.data.length === 0) {
       productList.push(
-        <div key={0}>
-          No Designs for this filter
+        <div key={0} className="no-data">
+          Sorry! I am yet to upload. Kindly check back in later.
         </div>
       );
     } else {
