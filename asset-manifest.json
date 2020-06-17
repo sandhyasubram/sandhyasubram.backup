@@ -1,30 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f83d684.chunk.css",
-    "main.js": "/static/js/main.40750db2.chunk.js",
-    "main.js.map": "/static/js/main.40750db2.chunk.js.map",
+    "main.css": "/static/css/main.3319523a.chunk.css",
+    "main.js": "/static/js/main.b1e9a68c.chunk.js",
+    "main.js.map": "/static/js/main.b1e9a68c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/js/2.297cfa80.chunk.js": "/static/js/2.297cfa80.chunk.js",
     "static/js/2.297cfa80.chunk.js.map": "/static/js/2.297cfa80.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.317125eb7d1ba50d5792e12342b2740a.js": "/precache-manifest.317125eb7d1ba50d5792e12342b2740a.js",
+    "precache-manifest.e24c2f93a1c28e7fb2631e9b986e4d56.js": "/precache-manifest.e24c2f93a1c28e7fb2631e9b986e4d56.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8f83d684.chunk.css.map": "/static/css/main.8f83d684.chunk.css.map",
+    "static/css/main.3319523a.chunk.css.map": "/static/css/main.3319523a.chunk.css.map",
     "static/js/2.297cfa80.chunk.js.LICENSE.txt": "/static/js/2.297cfa80.chunk.js.LICENSE.txt",
     "static/media/HomeScreen.scss": "/static/media/QanelasSoftDEMO-ExtraBold.396e6a5e.otf",
     "static/media/cake.png": "/static/media/cake.a23c60a1.png",
     "static/media/cheeky_ghost.gif": "/static/media/cheeky_ghost.53367dca.gif",
     "static/media/dessert.png": "/static/media/dessert.e87ed1d8.png",
+    "static/media/doctors_day.jpg": "/static/media/doctors_day.aed9a5e0.jpg",
+    "static/media/eiffel_tower.jpg": "/static/media/eiffel_tower.d4ca0159.jpg",
     "static/media/kitties.jpg": "/static/media/kitties.5c84a266.jpg",
-    "static/media/koala@2x.jpg": "/static/media/koala@2x.7af422d0.jpg",
+    "static/media/koala.jpg": "/static/media/koala.7af422d0.jpg",
+    "static/media/posterfox.jpg": "/static/media/posterfox.7595b75e.jpg",
     "static/media/presents.jpg": "/static/media/presents.114082ef.jpg",
+    "static/media/skyrocket.jpg": "/static/media/skyrocket.740908d9.jpg",
+    "static/media/three_finger_tap.jpg": "/static/media/three_finger_tap.d54fbcdc.jpg",
     "static/media/toggle.gif": "/static/media/toggle.126d2402.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.297cfa80.chunk.js",
-    "static/css/main.8f83d684.chunk.css",
-    "static/js/main.40750db2.chunk.js"
+    "static/css/main.3319523a.chunk.css",
+    "static/js/main.b1e9a68c.chunk.js"
   ]
 }
