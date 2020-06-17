@@ -33,7 +33,7 @@ export default class HomeScreen extends React.Component {
 
   checkScroller = event => {
     if (
-      event.target.scrollingElement.scrollTop >= 600 &&
+      event.target.scrollingElement.scrollTop >= 1000 &&
       this.state.scrollToTopButton !== "active"
     ) {
       this.setState({
