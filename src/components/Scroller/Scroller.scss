@@ -4,7 +4,6 @@
   height: 100%;
 
   .scroll-text {
-    color: $purple_medium;
     font-size: 1rem;
   }
   
@@ -18,8 +17,11 @@
     &.light {
       color: $white;
     }
+    &.medium {
+      color: $purple_medium;
+    }
     &.dark {
-      color: $black;
+      color: $purple_dark;
     }
     i.scroll-icon {
       font-size: $h4;

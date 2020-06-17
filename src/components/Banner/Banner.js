@@ -5,14 +5,16 @@ import { Scroller, SocialLinks } from "../../components";
 
 const Banner = (props) => {
   const content = useRef(null);
-  console.log('huh', content);
 
-  const scrollToContent = () => {
-    console.log("Scroll Content :: ", content);
+  const scrollToContent = (props) => {
     if (content.current) {
+      let top = content.current.offsetTop;
+      if (props === 'work') {
+        top += content.current.offsetHeight;
+      }
       window.scroll({
         left: 0,
-        top: content.current.offsetTop,
+        top: top,
         behavior: "smooth",
       });
     }
@@ -27,9 +29,9 @@ const Banner = (props) => {
               <div className="content-center">
                 <h1>{` ${props.bannerText} `}</h1>
                 <div className="banner-scroller">
-                  <Scroller
+                  <Scroller color="medium"
                     onClick={() => {
-                      scrollToContent();
+                      scrollToContent('intro');
                     }}
                   />
                 </div>
@@ -57,17 +59,17 @@ const Banner = (props) => {
                   </div>
                   <h1> {props.bannerText} </h1>
                   <div className="text-bottom">
-                    <div>
+                    {/* <div>
                       UX DESIGNER &nbsp;|&nbsp; CAT PERSON &nbsp;|&nbsp; ALSO A
                       DOG PERSON
-                    </div>
-                    <div>Find me @tangentkitty over the web</div>
+                    </div> */}
+                    <div>UX Designer &nbsp;|&nbsp; Find me @tangentkitty over the web</div>
                   </div>
                 </div>
                 <div className="banner-scroller">
-                  <Scroller
+                  <Scroller color='dark'
                     onClick={() => {
-                      scrollToContent();
+                      scrollToContent('work');
                     }}
                   />
                 </div>
