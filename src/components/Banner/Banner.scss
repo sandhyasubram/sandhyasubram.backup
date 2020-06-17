@@ -39,7 +39,7 @@ a {
   perspective: 1000;
   pointer-events: all;
   font-family: $theme_font;
-  text-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+  text-shadow: $shadow1;
 }
 .content-center {
   height: 100%;
@@ -52,6 +52,7 @@ a {
 /* Aesthetics */
 .top-section {
   background: $purple_gradient;
+
   .banner-scroller {
     height: 10%;
     width: 100%;
@@ -74,28 +75,63 @@ a {
 .content-theme-dark {
   h1 {
     color: $purple_medium;
-    text-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
   }
 }
 
 .content-theme-light {
   h1 {
     color: $purple_dark;
+    text-shadow: 0 0.9rem 0.7rem $shade1;
   }
 }
 
-.content-top {
-  position: absolute;
-  top: 8rem;
+.text {
+  position: relative;
   display: flex;
-  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+
+  .text-top, .text-bottom {
+    position: absolute;
+  }
+
+  .text-top {
+    top: 0;
+    display: flex;
+    text-shadow: 0 0.7rem 0.5rem $shade1;
+  }
+  
+  .text-bottom {
+    text-align: center;
+    bottom: -2rem;
+    font-family: $content_font;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $black;
+    line-height: 2.5rem;
+    text-shadow: 0 0.4rem 0.3rem $shade2;
+  }
 }
 
-.content-bottom {
-  position: absolute;
-  bottom: 6rem;
-  text-align: center;
-  font-family: $content_font;
-  font-size: 1rem;
-  line-height: 3rem;
+@media only screen and (max-width: 990px) {
+  .text {
+    .text-top {
+      top: -2rem;
+      font-size: 0.8rem;
+      text-shadow: 0 0.4rem 0.5rem $shade1;
+    }
+    .text-bottom {
+      bottom: -5rem;
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+    }
+  }
+  .content-theme-light {
+    h1 {
+      text-shadow: 0 0.7rem 0.7rem $shade1;
+    }
+  }
+  a.social-links {
+    font-size: 1.7rem;
+  }
 }

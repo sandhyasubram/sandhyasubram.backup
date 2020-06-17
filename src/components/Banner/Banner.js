@@ -7,7 +7,7 @@ const Banner = props => {
   const content = useRef(null);
 
   const scrollToContent = () => {
-    console.log(content);
+    console.debug("Scroll Content :: ", content);
     if (content.current) {
       window.scroll({
         left: 0,
@@ -31,7 +31,7 @@ const Banner = props => {
             </div>
           </div>
           <div className="banner-scroller">
-            <Scroller onClick={() => {console.log("clicked!");scrollToContent()}} />
+            <Scroller onClick={() => {scrollToContent()}} />
           </div>
         </section>
 
@@ -39,27 +39,29 @@ const Banner = props => {
           <div className="content-container content-theme-light">
             <div className="content-inner">
               <div className="content-center">
-                <div className="content-top">
-                  {props.links.map(link => {
-                    return (
-                      <SocialLinks
-                        key={link.icon}
-                        icon={link.icon}
-                        link={link.link}
-                        target="_blank"
-                      />
-                    );
-                  })}
-                </div>
-                <h1>
-                  {" "}{props.bannerText}{" "}
-                </h1>
-                <div className="content-bottom">
-                  <div>
-                    A UX DESIGNER &nbsp;|&nbsp; CAT PERSON &nbsp;|&nbsp; ALSO A
-                    DOG PERSON
+                <div className="text"> 
+                  <div className="text-top">
+                    {props.links.map(link => {
+                      return (
+                        <SocialLinks
+                          key={link.icon}
+                          icon={link.icon}
+                          link={link.link}
+                          target="_blank"
+                        />
+                      );
+                    })}
                   </div>
-                  <div>Find me @tangenkitty over the web</div>
+                  <h1>
+                    {" "}{props.bannerText}{" "}
+                  </h1>
+                  <div className="text-bottom">
+                    <div>
+                      UX DESIGNER &nbsp;|&nbsp; CAT PERSON &nbsp;|&nbsp; ALSO A
+                      DOG PERSON
+                    </div>
+                    <div>Find me @tangentkitty over the web</div>
+                  </div>
                 </div>
               </div>
             </div>

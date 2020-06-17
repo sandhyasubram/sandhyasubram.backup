@@ -25,14 +25,13 @@
       z-index: 3;
       height: 100%;
       width: 100%;
-      background-color: $purple-overlay;
+      background: $purple-overlay;
 
       .hover-text {
         position: absolute;
         text-transform: uppercase;
-        font-size: $h6;
-        letter-spacing: 1px;
-        font-weight: 400;
+        font-size: 1rem;
+        font-weight: 500;
         top: 50%;
         z-index: 4;
         color: $white;

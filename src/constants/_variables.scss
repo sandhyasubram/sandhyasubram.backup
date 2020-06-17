@@ -12,7 +12,10 @@
 
 $white: #fff;
 $black: #444;
-$purple_overlay: rgba(180, 180, 227, 0.8);
+$purple_overlay: radial-gradient(
+  circle at top left,
+  rgba(80, 80, 127, 0.5),
+  rgba(39, 39, 81, 0.5));
 $purple_light: #8F8CA9;
 $purple_medium: #6c6c9c;
 $purple_dark: #50507f;
@@ -24,9 +27,13 @@ $purple_gradient: radial-gradient(
   );
 $white_gradient: radial-gradient(
     circle at top left,
-    #cbcbcb,
-    #f7f7f7
+    #e8e8e8,
+    #e7e7e7
   );
+
+$shade1: rgba(0, 0, 0, 0.2);
+$shade2: rgba(0, 0, 0, 0.1);
+$shadow1:  0 1rem 1.2rem $shade1;
 
 /* Color Variables Declaration - END */
 
