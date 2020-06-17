@@ -4,5 +4,6 @@ import Header from "./Header/Header";
 import List from "./List/List";
 import Tile from "./Tile/Tile";
 import Scroller from "./Scroller/Scroller";
+import SocialLinks from "./SocialLinks/SocialLinks";
 
-export { Banner, Container, Header, List, Tile, Scroller };
+export { Banner, Container, Header, List, Tile, Scroller, SocialLinks };

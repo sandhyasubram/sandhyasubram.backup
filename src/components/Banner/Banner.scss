@@ -52,6 +52,13 @@ a {
 /* Aesthetics */
 .top-section {
   background: $purple_gradient;
+  .banner-scroller {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+  }
 }
 
 .bottom-section {
@@ -65,7 +72,7 @@ a {
 }
 
 .content-theme-dark {
-  h1 { 
+  h1 {
     color: $purple_medium;
     text-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
   }
@@ -91,20 +98,4 @@ a {
   font-family: $content_font;
   font-size: 1rem;
   line-height: 3rem;
-}
-
-a.social-links {
-  padding: 0.3em;
-  font-size: 2em;
-  color: $purple_dark;
-  text-decoration: none;
-
-  &:link, &:visited, &:focus, &:active{ 
-    color: $purple_dark;
-    text-decoration: none;
-  }
-
-  &:hover {
-    color: $purple_light;
-  }
 }

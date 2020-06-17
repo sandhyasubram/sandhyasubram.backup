@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, Header, Container, List, Scroller } from "../../components";
+import { Banner, Header, List, Scroller } from "../../components";
 import { Images, Strings } from "../../constants";
 import "./HomeScreen.scss";
 
@@ -9,8 +9,6 @@ export default class HomeScreen extends React.Component {
     this.state = {
       scrollToTopButton: "",
     };
-    this.content = React.createRef();
-    this.scrollToContent = this.scrollToContent.bind(this);
   }
 
   /**** LIFE CYCLE LISTENERS - START ****/
@@ -39,16 +37,6 @@ export default class HomeScreen extends React.Component {
     }
   };
 
-  scrollToContent = () => {
-    if (this.content.current) {
-      window.scroll({
-        left: 0,
-        top: this.content.current.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
-
   scrollToTop = () => {
     window.scroll({ left: 0, top: 0, behavior: "smooth" });
   };
@@ -67,12 +55,6 @@ export default class HomeScreen extends React.Component {
             bannerText={Strings.APPLICATION.SCREENS.HOME.BANNER_TEXT}
             links={Strings.APPLICATION.SOCIAL}
           />
-          {/* <div className="banner-scroller">
-            <Scroller onClick={() => this.scrollToContent()} />
-          </div> */}
-        </div>
-        <div ref={this.content}>
-          {/* <Container padding="padding-medium" links={Strings.APPLICATION.SOCIAL}/> */}
         </div>
         <List data={images} />
         <div
