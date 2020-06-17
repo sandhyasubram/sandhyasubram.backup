@@ -96,7 +96,7 @@ export default class HomeScreen extends React.Component {
           className={`scroll-to-top-wrapper ${this.state.scrollToTopButton}`}
         >
           <Scroller
-            type="fa-angle-up"
+            type="fa-chevron-up"
             onClick={() => {
               this.scrollToTop();
             }}
