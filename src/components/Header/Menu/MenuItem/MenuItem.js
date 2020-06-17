@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "./MenuItem.scss";
 
-const MenuItem = (props) => {
-  let className = "menu-item";
-  if (props.active) className += " active";
+const MenuItem = props => {
   return (
-    <li className={className}>
+    <li className={`menu-item ${props.active}`}>
       <Link to={props.path} className={props.active}>
-        <span>{props.title}</span>
+        <span>
+          {props.title}
+        </span>
       </Link>
     </li>
   );
@@ -18,13 +18,13 @@ const MenuItem = (props) => {
 MenuItem.defaultProps = {
   active: "",
   title: "",
-  path: "",
+  path: ""
 };
 
 MenuItem.propTypes = {
   active: PropTypes.string,
   title: PropTypes.string.isRequired,
-  path: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired
 };
 
 export default MenuItem;

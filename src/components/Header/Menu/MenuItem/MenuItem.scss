@@ -39,20 +39,11 @@
 
 @media only screen and (max-width: 990px) {
   .menu-item {
-    padding: 20px 0;
-
+    padding: 20px;
     a {
-      padding: 0;
-
       span {
-        font-size: $h2;
+        font-size: $tiny;
         text-transform: uppercase;
-        color: $purple_dark;
-
-        &.active {
-          color: $white;
-          padding-bottom: 20px;
-        }
       }
     }
   }

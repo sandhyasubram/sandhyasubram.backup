@@ -1,0 +1,20 @@
+@import "../../constants/_variables.scss";
+
+a.social-links {
+  padding: 0.3em;
+  font-size: 2em;
+  color: $purple_dark;
+  text-decoration: none;
+
+  &:link,
+  &:visited,
+  &:focus,
+  &:active {
+    color: $purple_dark;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $purple_light;
+  }
+}
