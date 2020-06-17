@@ -3,16 +3,25 @@ import PropTypes from "prop-types";
 import "./Tile.scss";
 
 const Tile = props => {
-  const { TITLE, IMAGE_SOURCE } = props.data;
+  const { TITLE, IMAGE_SOURCE, LINK } = props.data;
   return (
     <div className="tile-wrapper">
       <div className="tile-content">
         {/* TODO */}
-        <img className="tile-image" src={IMAGE_SOURCE} alt={TITLE} />
+        <img
+          className="tile-image"
+          src={require(`../../assets/design/${IMAGE_SOURCE}`)}
+          alt={TITLE}
+        />
         <div className="tile-overlay">
-          <div className="hover-text">
+          <a
+            className="hover-text"
+            href={LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {TITLE}
-          </div>
+          </a>
         </div>
       </div>
     </div>

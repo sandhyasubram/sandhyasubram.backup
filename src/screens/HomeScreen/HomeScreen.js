@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, Header, List, Scroller } from "../../components";
+import { Banner, Filter, Header, List, Scroller } from "../../components";
 import { Images, Strings } from "../../constants";
 import "./HomeScreen.scss";
 
@@ -8,12 +8,18 @@ export default class HomeScreen extends React.Component {
     super(props);
     this.state = {
       scrollToTopButton: "",
+      designs: []
     };
+    this.designs = React.createRef();
+    this.applyFilter = this.applyFilter.bind(this);
   }
 
   /**** LIFE CYCLE LISTENERS - START ****/
 
   componentDidMount = () => {
+    this.setState({
+      designs: Object.values(Images.DESIGNS) || []
+    });
     window.addEventListener("scroll", this.checkScroller);
   };
 
@@ -25,14 +31,20 @@ export default class HomeScreen extends React.Component {
 
   /**** COMPONENT HELPER FUNCTIONS - START ****/
 
-  checkScroller = (event) => {
-    if (event.target.scrollingElement.scrollTop >= 600) {
+  checkScroller = event => {
+    if (
+      event.target.scrollingElement.scrollTop >= 600 &&
+      this.state.scrollToTopButton !== "active"
+    ) {
       this.setState({
-        scrollToTopButton: "active",
+        scrollToTopButton: "active"
       });
-    } else if (this.state.scrollToTopButton === "active") {
+    } else if (
+      event.target.scrollingElement.scrollTop < 600 &&
+      this.state.scrollToTopButton === "active"
+    ) {
       this.setState({
-        scrollToTopButton: "",
+        scrollToTopButton: ""
       });
     }
   };
@@ -41,12 +53,27 @@ export default class HomeScreen extends React.Component {
     window.scroll({ left: 0, top: 0, behavior: "smooth" });
   };
 
+  applyFilter = filter => {
+    if (this.designs.current) {
+      let top = this.designs.current.offsetTop;
+      window.scroll({ left: 0, top: top, behavior: "smooth" });
+    }
+    var designs = [];
+    if (filter === Strings.IMAGE_CATEGORY.ALL.FILTER) {
+      designs = Images.DESIGNS;
+    } else {
+      designs = Images.DESIGNS.filter(design =>
+        design.CATEGORY.includes(filter)
+      );
+    }
+    this.setState({ designs });
+  };
+
   /**** COMPONENT HELPER FUNCTIONS - END ****/
 
   render() {
     const { pathname } = (this.props && this.props.location) || null;
-    const designs = Images.DESIGNS || {};
-    const images = Object.values(designs) || [];
+
     return (
       <div className="home-screen-wrapper">
         <Header path={pathname} />
@@ -56,7 +83,15 @@ export default class HomeScreen extends React.Component {
             links={Strings.APPLICATION.SOCIAL}
           />
         </div>
-        <List data={images} />
+        <div>
+          <Filter
+            data={Object.values(Strings.IMAGE_CATEGORY)}
+            onClick={filter => this.applyFilter(filter)}
+          />
+          <div ref={this.designs}>
+            <List data={this.state.designs} filter={this.state.filter} />
+          </div>
+        </div>
         <div
           className={`scroll-to-top-wrapper ${this.state.scrollToTopButton}`}
         >

@@ -7,13 +7,21 @@ import "./List.scss";
 const List = props => {
   const _renderTiles = () => {
     let productList = [];
-    props.data.forEach((item, index) => {
+    if (props.data.length === 0) {
       productList.push(
-        <div className="tiles" key={index}>
-          <Tile data={item} />
+        <div key={0}>
+          No Designs for this filter
         </div>
       );
-    });
+    } else {
+      props.data.forEach((item, index) => {
+        productList.push(
+          <div className={`tiles ${item.CATEGORY.join(" ")}`} key={index}>
+            <Tile data={item} />
+          </div>
+        );
+      });
+    }
     return productList;
   };
 
