@@ -7,7 +7,10 @@ const Strings = {
     },
     SCREENS: {
       HOME: {
-        BANNER_TEXT: "Hi, I'm Sandhya.",
+        BANNER_TEXT: {
+          GREETING: "Hi",
+          NAME: "I'm Sandhya"
+        },
         INTRO_TEXT: "A UX Designer who goes by @tangentkitty on the web",
       },
     },

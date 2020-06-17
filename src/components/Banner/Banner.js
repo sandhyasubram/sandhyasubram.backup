@@ -27,7 +27,7 @@ const Banner = (props) => {
           <div className="content-container content-theme-dark">
             <div className="content-inner">
               <div className="content-center">
-                <h1>{` ${props.bannerText} `}</h1>
+              <h1> {props.bannerText.GREETING }<span class="content-font">,</span> {props.bannerText.NAME}</h1>
                 <div className="banner-scroller">
                   <Scroller color="medium"
                     onClick={() => {
@@ -57,7 +57,7 @@ const Banner = (props) => {
                       );
                     })}
                   </div>
-                  <h1> {props.bannerText} </h1>
+                  <h1> {props.bannerText.GREETING }<span class="content-font">,</span> {props.bannerText.NAME}</h1>
                   <div className="text-bottom">
                     {/* <div>
                       UX DESIGNER &nbsp;|&nbsp; CAT PERSON &nbsp;|&nbsp; ALSO A

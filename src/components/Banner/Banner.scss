@@ -93,6 +93,11 @@ a {
   }    
 }
 
+.content-font {
+  font-family: $content_font;
+  font-size: 4rem;
+}
+
 .text {
   position: relative;
   display: flex;
@@ -140,6 +145,9 @@ a {
   }
   a.social-links {
     font-size: 1.7rem;
+  }
+  .content-font {
+    font-size: 2rem;
   }
 }
 
