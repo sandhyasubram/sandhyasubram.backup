@@ -22,13 +22,3 @@ $button-size: 50px;
     }
   }
 }
-
-@media only screen and (max-width: 900px) {
-  .home-screen-wrapper {
-    .banner-container {
-      .banner-scroller {
-        padding: 80px 0;
-      }
-    }
-  }
-}

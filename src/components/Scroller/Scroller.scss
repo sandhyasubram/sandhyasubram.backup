@@ -3,6 +3,10 @@
 .scroller-wrapper {
   height: 100%;
 
+  .scroll-text {
+    font-size: 1rem;
+  }
+  
   .scroller {
     height: 100%;
     width: 100%;
@@ -13,8 +17,11 @@
     &.light {
       color: $white;
     }
+    &.medium {
+      color: $purple_medium;
+    }
     &.dark {
-      color: $black;
+      color: $purple_dark;
     }
     i.scroll-icon {
       font-size: $h4;

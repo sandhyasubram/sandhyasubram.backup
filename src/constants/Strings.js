@@ -7,7 +7,7 @@ const Strings = {
     },
     SCREENS: {
       HOME: {
-        BANNER_TEXT: "I'm Sandhya.",
+        BANNER_TEXT: "Hi, I'm Sandhya.",
         INTRO_TEXT: "A UX Designer who goes by @tangentkitty on the web",
       },
     },
@@ -19,6 +19,11 @@ const Strings = {
       { link: "https://twitter.com/tangentkitty", icon: "twitter" },
       { link: "https://www.instagram.com/tangentkitty/", icon: "instagram" },
     ],
+  },   
+  IMAGE_CATEGORY: {
+    VECTOR: "vector",
+    WEB_DESIGN: "web-design",
+    ANIMATION: "animation",
   },
 };
 
