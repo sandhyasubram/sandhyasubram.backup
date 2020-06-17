@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de247b0e55bdd9fc7bbdf34d56e040bb",
+    "revision": "a395174f6857bf88e867172b964e4055",
     "url": "/index.html"
   },
   {
-    "revision": "54aa90913fc22ec34f08",
-    "url": "/static/css/main.8f83d684.chunk.css"
+    "revision": "03140ac047e2d1fe89dc",
+    "url": "/static/css/main.a2880b7c.chunk.css"
   },
   {
     "revision": "029bc74386d5d642e9cd",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.297cfa80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "54aa90913fc22ec34f08",
-    "url": "/static/js/main.40750db2.chunk.js"
+    "revision": "03140ac047e2d1fe89dc",
+    "url": "/static/js/main.d0f0a4dc.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -44,16 +44,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dessert.e87ed1d8.png"
   },
   {
+    "revision": "aed9a5e066b072b425ff4d28f9e2992d",
+    "url": "/static/media/doctors_day.aed9a5e0.jpg"
+  },
+  {
+    "revision": "d4ca0159601d88b6656cef064a0c7501",
+    "url": "/static/media/eiffel_tower.d4ca0159.jpg"
+  },
+  {
     "revision": "5c84a266faf812f568cb5c01b08e849d",
     "url": "/static/media/kitties.5c84a266.jpg"
   },
   {
     "revision": "7af422d0248b5d12716b4bba2d3f2bad",
-    "url": "/static/media/koala@2x.7af422d0.jpg"
+    "url": "/static/media/koala.7af422d0.jpg"
+  },
+  {
+    "revision": "7595b75e1c2d19e40cd4a613873ef402",
+    "url": "/static/media/posterfox.7595b75e.jpg"
   },
   {
     "revision": "114082ef9e39ac75578498b5678f1206",
     "url": "/static/media/presents.114082ef.jpg"
+  },
+  {
+    "revision": "740908d99ea8d39a2b146eaaaa1b0f8b",
+    "url": "/static/media/skyrocket.740908d9.jpg"
+  },
+  {
+    "revision": "d54fbcdcff70a6371c977de1ac3ecd5d",
+    "url": "/static/media/three_finger_tap.d54fbcdc.jpg"
   },
   {
     "revision": "126d24027cf2ef81b2ddc2bc8a4f6e39",
