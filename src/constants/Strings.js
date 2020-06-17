@@ -19,6 +19,11 @@ const Strings = {
       { link: "https://twitter.com/tangentkitty", icon: "twitter" },
       { link: "https://www.instagram.com/tangentkitty/", icon: "instagram" },
     ],
+  },   
+  IMAGE_CATEGORY: {
+    VECTOR: "vector",
+    WEB_DESIGN: "web-design",
+    ANIMATION: "animation",
   },
 };
 

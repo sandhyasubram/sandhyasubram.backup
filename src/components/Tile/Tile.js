@@ -7,6 +7,7 @@ const Tile = props => {
   return (
     <div className="tile-wrapper">
       <div className="tile-content">
+        {/* TODO */}
         <img className="tile-image" src={IMAGE_SOURCE} alt={TITLE} />
         <div className="tile-overlay">
           <div className="hover-text">
