@@ -4,6 +4,13 @@ import PropTypes from "prop-types";
 import "./Scroller.scss";
 
 const Scroller = props => {
+  let type = props.type;
+  let markup;
+  if(type !== 'down') {
+    markup = <i className={`scroll-icon fa ${props.type}`} />
+  } else {
+    markup = <div className = "scroll-text"> click to scroll </div>
+  }
   return (
     <div className={`scroller-wrapper`}>
       <div
@@ -11,15 +18,15 @@ const Scroller = props => {
         onClick={() => {
           props.onClick();
         }}
-      >
-        <i className={`scroll-icon fa ${props.type}`} />
+      > 
+      { markup }
       </div>
     </div>
   );
 };
 
 Scroller.defaultProps = {
-  type: "fa-angle-down",
+  type: "down",
   color: "light"
 };
 

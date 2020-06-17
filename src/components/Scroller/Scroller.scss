@@ -3,6 +3,11 @@
 .scroller-wrapper {
   height: 100%;
 
+  .scroll-text {
+    color: $purple_medium;
+    font-size: 1rem;
+  }
+  
   .scroller {
     height: 100%;
     width: 100%;

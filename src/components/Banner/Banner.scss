@@ -47,6 +47,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 40px;
 }
 
 /* Aesthetics */
@@ -54,16 +55,24 @@ a {
   background: $purple_gradient;
 
   .banner-scroller {
-    height: 10%;
-    width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 1rem;
+    width: 50%;
+    height: 5rem;
     z-index: 2;
+    
+    &:hover {
+      animation: shake 0.8s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+    }    
   }
 }
 
 .bottom-section {
   background: $white_gradient;
+  height: 120vh;
 }
 
 .section h1 {
@@ -121,7 +130,7 @@ a {
       text-shadow: 0 0.4rem 0.5rem $shade1;
     }
     .text-bottom {
-      bottom: -5rem;
+      bottom: -2.5rem;
       font-size: 0.8rem;
       line-height: 1.5rem;
     }
@@ -133,5 +142,28 @@ a {
   }
   a.social-links {
     font-size: 1.7rem;
+  }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(3px, 0, 0);
   }
 }

@@ -1,13 +1,14 @@
-import React, {useRef} from "react";
+import React, { useRef } from "react";
 import PropTypes from "prop-types";
 import "./Banner.scss";
 import { Scroller, SocialLinks } from "../../components";
 
-const Banner = props => {
+const Banner = (props) => {
   const content = useRef(null);
+  console.log('huh', content);
 
   const scrollToContent = () => {
-    console.debug("Scroll Content :: ", content);
+    console.log("Scroll Content :: ", content);
     if (content.current) {
       window.scroll({
         left: 0,
@@ -24,14 +25,16 @@ const Banner = props => {
           <div className="content-container content-theme-dark">
             <div className="content-inner">
               <div className="content-center">
-                <h1>
-                  {` ${props.bannerText} `}
-                </h1>
+                <h1>{` ${props.bannerText} `}</h1>
+                <div className="banner-scroller">
+                  <Scroller
+                    onClick={() => {
+                      scrollToContent();
+                    }}
+                  />
+                </div>
               </div>
             </div>
-          </div>
-          <div className="banner-scroller">
-            <Scroller onClick={() => {scrollToContent()}} />
           </div>
         </section>
 
@@ -39,9 +42,9 @@ const Banner = props => {
           <div className="content-container content-theme-light">
             <div className="content-inner">
               <div className="content-center">
-                <div className="text"> 
+                <div className="text">
                   <div className="text-top">
-                    {props.links.map(link => {
+                    {props.links.map((link) => {
                       return (
                         <SocialLinks
                           key={link.icon}
@@ -52,9 +55,7 @@ const Banner = props => {
                       );
                     })}
                   </div>
-                  <h1>
-                    {" "}{props.bannerText}{" "}
-                  </h1>
+                  <h1> {props.bannerText} </h1>
                   <div className="text-bottom">
                     <div>
                       UX DESIGNER &nbsp;|&nbsp; CAT PERSON &nbsp;|&nbsp; ALSO A
@@ -62,6 +63,13 @@ const Banner = props => {
                     </div>
                     <div>Find me @tangentkitty over the web</div>
                   </div>
+                </div>
+                <div className="banner-scroller">
+                  <Scroller
+                    onClick={() => {
+                      scrollToContent();
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -74,12 +82,12 @@ const Banner = props => {
 
 Banner.defaultProps = {
   bannerText: "",
-  links: []
+  links: [],
 };
 
 Banner.propTypes = {
   bannerText: PropTypes.string,
-  links: PropTypes.array
+  links: PropTypes.array,
 };
 
 export default Banner;
