@@ -7,10 +7,10 @@ const Images = {
   },
   DESIGNS: [
     {
-      TITLE: "Doctor's Day",
-      IMAGE_SOURCE: "doctors_day.jpg",
-      LINK: "https://dribbble.com/shots/4770653-Doctor-s-Day-Dribbble",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+      TITLE: "Snappy Toggle Button",
+      IMAGE_SOURCE: "snappy_toggle_button.gif",
+      LINK: "https://dribbble.com/shots/12126114-Snappy-Toggle-Nav-Button",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Cheeky Ghost",
@@ -21,12 +21,18 @@ const Images = {
       ],
     },
     {
-      TITLE: "Toggle Button",
+      TITLE: "Day to Night Toggle",
       IMAGE_SOURCE: "toggle.gif",
       LINK: "https://dribbble.com/shots/11374680-Toggle-switch-for-Light-Dark-modes",
       CATEGORY: [
         Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
       ],
+    },
+    {
+      TITLE: "Doctor's Day",
+      IMAGE_SOURCE: "doctors_day.jpg",
+      LINK: "https://dribbble.com/shots/4770653-Doctor-s-Day-Dribbble",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
       TITLE: "Three Finger Tap",
