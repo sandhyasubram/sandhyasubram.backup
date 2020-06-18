@@ -5,6 +5,7 @@ import "./Container.scss";
 const Container = (props) => {
   return (
     <div className={`container ${props.size} ${props.padding} ${props.height}`}>
+      {props.children}
     </div>
   );
 };

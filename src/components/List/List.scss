@@ -6,7 +6,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background: white;
 
   .tiles {
     display: none;
@@ -26,27 +25,23 @@
   &.two {
     .tiles {
       width: 50%;
-      background-color: $white;
     }
   }
   &.three {
     .tiles {
       width: calc(100% / 12 * 4);
       max-width: calc(100% / 12 * 4);
-      background-color: $white;
     }
   }
   &.four {
     .tiles {
       width: 25%;
-      background-color: $white;
     }
   }
 }
 
 .no-data {
   width: 100%;
-  background: white;
   display: flex;
   justify-content: center;
   font-size: 0.9rem;
