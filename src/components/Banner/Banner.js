@@ -63,7 +63,7 @@ const Banner = (props) => {
                       UX DESIGNER &nbsp;|&nbsp; CAT PERSON &nbsp;|&nbsp; ALSO A
                       DOG PERSON
                     </div> */}
-                    <div>UX Designer &nbsp;|&nbsp; Find me @tangentkitty over the web</div>
+                    <div>UX Designer &nbsp;|&nbsp; Find me @tangentkitty | @sandhya_subram over the web</div>
                   </div>
                 </div>
                 <div className="banner-scroller">
