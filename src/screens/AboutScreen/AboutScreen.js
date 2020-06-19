@@ -10,7 +10,7 @@ export default class AboutScreen extends React.Component {
         <Header path={pathname} />
         <Container padding="padding-medium" height="full">
           <div class="text-wrap">
-            <div>Still figuring myself out. Please check back in later!</div>
+            <div>Under construction. Please check back in later!</div>
           </div>
           <div class="gallery-wrap">
             <div class="item item-1"></div>
