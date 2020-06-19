@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7e053f93338588db6c916dd6f1f9be6",
+    "revision": "0d9dc94125e0511fced8eafe20e71be2",
     "url": "/index.html"
   },
   {
-    "revision": "3858cfe2d5094a7ac652",
-    "url": "/static/css/main.9e65f087.chunk.css"
+    "revision": "573d455934cdaf833925",
+    "url": "/static/css/main.82e3aa4a.chunk.css"
   },
   {
     "revision": "029bc74386d5d642e9cd",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.297cfa80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3858cfe2d5094a7ac652",
-    "url": "/static/js/main.3176fc00.chunk.js"
+    "revision": "573d455934cdaf833925",
+    "url": "/static/js/main.3c9fbd21.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/QanelasSoftDEMO-ExtraBold.396e6a5e.otf"
   },
   {
-    "revision": "c88362df18d5548dc66e0e2c556e1470",
-    "url": "/static/media/b_w.c88362df.jpg"
+    "revision": "c6aec028673d0734d4d566a0ccbeb1f9",
+    "url": "/static/media/b_w.c6aec028.jpg"
   },
   {
     "revision": "a23c60a1430630fb87080cecc5dd86ab",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d93e5e824f76c38bed39fb4f373f74b",
     "url": "/static/media/cover_4.4d93e5e8.jpg"
-  },
-  {
-    "revision": "2e781d142a179b834640277f4c9aa24d",
-    "url": "/static/media/debug_concept.2e781d14.jpg"
   },
   {
     "revision": "e87ed1d88839534ed1143fb8b7894724",
