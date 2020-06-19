@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1eb3b5332ac282d212aab294af55c27",
+    "revision": "f15e71e87fa0b8cc0ffe12078878b95e",
     "url": "/index.html"
   },
   {
-    "revision": "f5a6b329a888596f9649",
-    "url": "/static/css/main.ea9942ea.chunk.css"
+    "revision": "e3409e27cd26becd4a5b",
+    "url": "/static/css/main.911b2757.chunk.css"
   },
   {
     "revision": "029bc74386d5d642e9cd",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.297cfa80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5a6b329a888596f9649",
-    "url": "/static/js/main.52256d17.chunk.js"
+    "revision": "e3409e27cd26becd4a5b",
+    "url": "/static/js/main.3176fc00.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -32,12 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/QanelasSoftDEMO-ExtraBold.396e6a5e.otf"
   },
   {
+    "revision": "c88362df18d5548dc66e0e2c556e1470",
+    "url": "/static/media/b_w.c88362df.jpg"
+  },
+  {
     "revision": "a23c60a1430630fb87080cecc5dd86ab",
     "url": "/static/media/cake.a23c60a1.png"
   },
   {
     "revision": "53367dca88ab36318178120f8c9966b4",
     "url": "/static/media/cheeky_ghost.53367dca.gif"
+  },
+  {
+    "revision": "4d93e5e824f76c38bed39fb4f373f74b",
+    "url": "/static/media/cover_4.4d93e5e8.jpg"
+  },
+  {
+    "revision": "2e781d142a179b834640277f4c9aa24d",
+    "url": "/static/media/debug_concept.2e781d14.jpg"
   },
   {
     "revision": "e87ed1d88839534ed1143fb8b7894724",
@@ -68,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/presents.114082ef.jpg"
   },
   {
+    "revision": "fda2b56ce40c2622526bfe2742af5839",
+    "url": "/static/media/room.fda2b56c.jpg"
+  },
+  {
     "revision": "740908d99ea8d39a2b146eaaaa1b0f8b",
     "url": "/static/media/skyrocket.740908d9.jpg"
   },
@@ -82,5 +98,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "126d24027cf2ef81b2ddc2bc8a4f6e39",
     "url": "/static/media/toggle.126d2402.gif"
+  },
+  {
+    "revision": "ddd2c5c3c9bdc76a191826f92fd817ef",
+    "url": "/static/media/workspace_1.ddd2c5c3.jpg"
   }
 ]);
