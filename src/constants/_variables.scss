@@ -8,6 +8,14 @@
     src: url(../assets/fonts/QanelasSoftDEMO-ExtraBold.otf);
 }
 
+$mobile-width: 990px;
+
+@mixin mobile {
+  @media only screen and (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
 /* Color Variables Declaration - START */
 
 $white: #f7f7f7;
@@ -38,6 +46,7 @@ $white_gradient: radial-gradient(
 $shade1: rgba(0, 0, 0, 0.2);
 $shade2: rgba(0, 0, 0, 0.1);
 $shadow1:  0 1rem 1.2rem $shade1;
+$shadow2: 0 1rem 1.2rem $shade2;
 
 /* Color Variables Declaration - END */
 

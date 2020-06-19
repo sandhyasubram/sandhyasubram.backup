@@ -88,6 +88,12 @@ const Images = {
       LINK: "https://dribbble.com/shots/11962551-Koala",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
+    {
+      TITLE: "Debug Concept",
+      IMAGE_SOURCE: "debug_concept.jpg",
+      LINK: "https://www.behance.net/gallery/59870847/Debugger-Logo",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
   ],
 };
 

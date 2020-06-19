@@ -8,7 +8,17 @@ export default class AboutScreen extends React.Component {
     return (
       <div className="about-me-wrapper">
         <Header path={pathname} />
-        <Container padding="padding-medium" height="full"/>
+        <Container padding="padding-medium" height="full">
+          <div class="text-wrap">
+            <div>Still figuring myself out. Please check back in later!</div>
+          </div>
+          <div class="gallery-wrap">
+            <div class="item item-1"></div>
+            <div class="item item-2"></div>
+            <div class="item item-3"></div>  
+            <div class="item item-4"></div>
+          </div>
+        </Container>
       </div>
     );
   }

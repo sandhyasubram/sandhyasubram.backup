@@ -3,7 +3,9 @@
 .container {
   background: $purple_gradient;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   &.large {
     width: 100%;
@@ -33,7 +35,7 @@
     height: 100vh;
   }
 }
-@media only screen and (max-width: 990px) {
+@include mobile {
   .container {
     &.padding-large {
       padding: 100px 50px;
