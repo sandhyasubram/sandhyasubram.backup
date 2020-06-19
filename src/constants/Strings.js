@@ -19,7 +19,7 @@ const Strings = {
       { link: "https://codepen.io/sandhya_subram/", icon: "codepen" },
       { link: "https://www.linkedin.in/in/sandhyasubram/", icon: "linkedin" },
       { link: "https://twitter.com/sandhya_subram", icon: "twitter" },
-      { link: "https://www.instagram.com/tangentkitty/", icon: "instagram" }
+      { link: "https://www.instagram.com/sandhya_subram", icon: "instagram" }
     ]
   },
   IMAGE_CATEGORY: {
