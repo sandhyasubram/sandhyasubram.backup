@@ -5,12 +5,18 @@ const Images = {
     HOME: {},
     ABOUT: {},
   },
-  DESIGNS: [
+  DESIGNS: [   
     {
       TITLE: "Snappy Toggle Button",
       IMAGE_SOURCE: "snappy_toggle_button.gif",
       LINK: "https://dribbble.com/shots/12126114-Snappy-Toggle-Nav-Button",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
+      TITLE: "Debug Concept",
+      IMAGE_SOURCE: "debug_concept.jpg",
+      LINK: "https://www.behance.net/gallery/59870847/Debugger-Logo",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
       TITLE: "Cheeky Ghost",
@@ -47,6 +53,12 @@ const Images = {
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
+      TITLE: "Koala",
+      IMAGE_SOURCE: "koala.jpg",
+      LINK: "https://dribbble.com/shots/11962551-Koala",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
+    {
       TITLE: "Presents",
       IMAGE_SOURCE: "presents.jpg",
       LINK: "https://dribbble.com/shots/11334814-Presents",
@@ -80,18 +92,6 @@ const Images = {
       TITLE: "Skyrocket",
       IMAGE_SOURCE: "skyrocket.jpg",
       LINK: "https://dribbble.com/shots/4467090-Skyrocket",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
-    },
-    {
-      TITLE: "Koala",
-      IMAGE_SOURCE: "koala.jpg",
-      LINK: "https://dribbble.com/shots/11962551-Koala",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
-    },
-    {
-      TITLE: "Debug Concept",
-      IMAGE_SOURCE: "debug_concept.jpg",
-      LINK: "https://www.behance.net/gallery/59870847/Debugger-Logo",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
   ],
