@@ -5,7 +5,7 @@ const Images = {
     HOME: {},
     ABOUT: {},
   },
-  DESIGNS: [   
+  DESIGNS: [
     {
       TITLE: "Snappy Toggle Button",
       IMAGE_SOURCE: "snappy_toggle_button.gif",
@@ -22,29 +22,32 @@ const Images = {
       TITLE: "Cheeky Ghost",
       IMAGE_SOURCE: "cheeky_ghost.gif",
       LINK: "https://dribbble.com/shots/11949368-Cheeky-Ghost",
-      CATEGORY: [
-        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
-      ],
+      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Day to Night Toggle",
       IMAGE_SOURCE: "toggle.gif",
-      LINK: "https://dribbble.com/shots/11374680-Toggle-switch-for-Light-Dark-modes",
-      CATEGORY: [
-        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
-      ],
+      LINK:
+        "https://dribbble.com/shots/11374680-Toggle-switch-for-Light-Dark-modes",
+      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Doctor's Day",
       IMAGE_SOURCE: "doctors_day.jpg",
       LINK: "https://dribbble.com/shots/4770653-Doctor-s-Day-Dribbble",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+      CATEGORY: [
+        Strings.IMAGE_CATEGORY.VECTOR.FILTER,
+        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
+      ],
     },
     {
       TITLE: "Three Finger Tap",
       IMAGE_SOURCE: "three_finger_tap.jpg",
       LINK: "https://dribbble.com/shots/4419922-Three-Finger-Tap",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+      CATEGORY: [
+        Strings.IMAGE_CATEGORY.VECTOR.FILTER,
+        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
+      ],
     },
     {
       TITLE: "Eiffel Tower",
@@ -62,13 +65,19 @@ const Images = {
       TITLE: "Presents",
       IMAGE_SOURCE: "presents.jpg",
       LINK: "https://dribbble.com/shots/11334814-Presents",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+      CATEGORY: [
+        Strings.IMAGE_CATEGORY.VECTOR.FILTER,
+        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
+      ],
     },
     {
       TITLE: "Desserts",
       IMAGE_SOURCE: "dessert.png",
       LINK: "https://dribbble.com/shots/11836231-Dessert",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+      CATEGORY: [
+        Strings.IMAGE_CATEGORY.VECTOR.FILTER,
+        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
+      ],
     },
     {
       TITLE: "Unicorn Cake",
