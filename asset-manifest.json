@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.708495e3.chunk.css",
-    "main.js": "/static/js/main.72529530.chunk.js",
-    "main.js.map": "/static/js/main.72529530.chunk.js.map",
+    "main.js": "/static/js/main.d64760d4.chunk.js",
+    "main.js.map": "/static/js/main.d64760d4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/js/2.06625184.chunk.js": "/static/js/2.06625184.chunk.js",
     "static/js/2.06625184.chunk.js.map": "/static/js/2.06625184.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.83f3f12ab5861170f24f393cb83c497f.js": "/precache-manifest.83f3f12ab5861170f24f393cb83c497f.js",
+    "precache-manifest.486ca6159300f8aafe82c28fec01a803.js": "/precache-manifest.486ca6159300f8aafe82c28fec01a803.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.708495e3.chunk.css.map": "/static/css/main.708495e3.chunk.css.map",
     "static/js/2.06625184.chunk.js.LICENSE.txt": "/static/js/2.06625184.chunk.js.LICENSE.txt",
     "static/media/AboutScreen.scss": "/static/media/workspace_1.ddd2c5c3.jpg",
+    "static/media/allspark_rocket.gif": "/static/media/allspark_rocket.8053e614.gif",
     "static/media/cake.png": "/static/media/cake.a23c60a1.png",
     "static/media/cheeky_ghost.gif": "/static/media/cheeky_ghost.53367dca.gif",
     "static/media/debug_concept.jpg": "/static/media/debug_concept.2e781d14.jpg",
@@ -32,6 +33,6 @@
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.06625184.chunk.js",
     "static/css/main.708495e3.chunk.css",
-    "static/js/main.72529530.chunk.js"
+    "static/js/main.d64760d4.chunk.js"
   ]
 }
