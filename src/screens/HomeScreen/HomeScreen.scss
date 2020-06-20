@@ -2,12 +2,18 @@
 
 $button-size: 50px;
 
-.home-screen-wrapper {
+.home-screen-container {
   .intro-text {
     font-size: $h3;
     text-align: center;
   }
-  .scroll-to-top-wrapper {
+  .filter-container {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: white;
+  }
+  .scroll-to-top-container {
     position: fixed;
     bottom: 30px;
     right: 30px;

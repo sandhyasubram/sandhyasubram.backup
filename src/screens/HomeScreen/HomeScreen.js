@@ -8,9 +8,11 @@ export default class HomeScreen extends React.Component {
     super(props);
     this.state = {
       scrollToTopButton: "",
-      designs: []
+      designs: [],
+      activeFilter: Strings.IMAGE_CATEGORY.ALL.FILTER
     };
     this.designs = React.createRef();
+    this.filters = React.createRef();
     this.applyFilter = this.applyFilter.bind(this);
   }
 
@@ -54,8 +56,9 @@ export default class HomeScreen extends React.Component {
   };
 
   applyFilter = filter => {
-    if (this.designs.current) {
-      let top = this.designs.current.offsetTop;
+    if (this.designs.current && this.filters.current) {
+      let top =
+        this.designs.current.offsetTop - this.filters.current.clientHeight;
       window.scroll({ left: 0, top: top, behavior: "smooth" });
     }
     var designs = [];
@@ -66,7 +69,7 @@ export default class HomeScreen extends React.Component {
         design.CATEGORY.includes(filter)
       );
     }
-    this.setState({ designs });
+    this.setState({ designs: designs, activeFilter: filter });
   };
 
   /**** COMPONENT HELPER FUNCTIONS - END ****/
@@ -75,7 +78,7 @@ export default class HomeScreen extends React.Component {
     const { pathname } = (this.props && this.props.location) || null;
 
     return (
-      <div className="home-screen-wrapper">
+      <div className="home-screen-container">
         <Header path={pathname} />
         <div className="banner-container">
           <Banner
@@ -84,16 +87,19 @@ export default class HomeScreen extends React.Component {
           />
         </div>
         <div>
-          <Filter
-            data={Object.values(Strings.IMAGE_CATEGORY)}
-            onClick={filter => this.applyFilter(filter)}
-          />
+          <div className="filter-container" ref={this.filters}>
+            <Filter
+              data={Object.values(Strings.IMAGE_CATEGORY)}
+              activeFilter={this.state.activeFilter}
+              onClick={filter => this.applyFilter(filter)}
+            />
+          </div>
           <div ref={this.designs}>
             <List data={this.state.designs} filter={this.state.filter} />
           </div>
         </div>
         <div
-          className={`scroll-to-top-wrapper ${this.state.scrollToTopButton}`}
+          className={`scroll-to-top-container ${this.state.scrollToTopButton}`}
         >
           <Scroller
             type="fa-chevron-up"
