@@ -46,7 +46,6 @@ const Images = {
       LINK: "https://dribbble.com/shots/4419922-Three-Finger-Tap",
       CATEGORY: [
         Strings.IMAGE_CATEGORY.VECTOR.FILTER,
-        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
       ],
     },
     {
@@ -69,6 +68,12 @@ const Images = {
         Strings.IMAGE_CATEGORY.VECTOR.FILTER,
         Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
       ],
+    },   
+    {
+      TITLE: "Rocket",
+      IMAGE_SOURCE: "allspark_rocket.gif",
+      LINK: "https://dribbble.com/sandhya_subram",
+      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Desserts",
