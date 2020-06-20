@@ -56,11 +56,6 @@ export default class HomeScreen extends React.Component {
   };
 
   applyFilter = filter => {
-    if (this.designs.current && this.filters.current) {
-      let top =
-        this.designs.current.offsetTop - this.filters.current.clientHeight;
-      window.scroll({ left: 0, top: top, behavior: "smooth" });
-    }
     var designs = [];
     if (filter === Strings.IMAGE_CATEGORY.ALL.FILTER) {
       designs = Images.DESIGNS;
@@ -69,7 +64,19 @@ export default class HomeScreen extends React.Component {
         design.CATEGORY.includes(filter)
       );
     }
-    this.setState({ designs: designs, activeFilter: filter });
+    this.setState(
+      { designs: designs, activeFilter: filter },
+      this.scrollToDesigns
+    );
+  };
+
+  scrollToDesigns = async () => {
+    if (this.designs.current && this.filters.current) {
+      let top =
+        this.designs.current.offsetTop - this.filters.current.clientHeight;
+      console.log(this.designs);
+      window.scrollTo({ left: 0, top: top, behavior: "smooth" });
+    }
   };
 
   /**** COMPONENT HELPER FUNCTIONS - END ****/
