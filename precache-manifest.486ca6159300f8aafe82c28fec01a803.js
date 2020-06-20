@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd71670a5d3ce04819aa7800f705e272",
+    "revision": "9249ae95ff910f452d7b6a305a70e232",
     "url": "/index.html"
   },
   {
-    "revision": "41ad49f359126df16107",
+    "revision": "40f134cb25a37d30ef0d",
     "url": "/static/css/main.708495e3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41ad49f359126df16107",
-    "url": "/static/js/main.72529530.chunk.js"
+    "revision": "40f134cb25a37d30ef0d",
+    "url": "/static/js/main.d64760d4.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "396e6a5ef203042c516ad8898b3ce617",
     "url": "/static/media/QanelasSoftDEMO-ExtraBold.396e6a5e.otf"
+  },
+  {
+    "revision": "8053e61453a601beac1411d7f957d78b",
+    "url": "/static/media/allspark_rocket.8053e614.gif"
   },
   {
     "revision": "c6aec028673d0734d4d566a0ccbeb1f9",
