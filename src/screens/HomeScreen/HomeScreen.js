@@ -74,7 +74,6 @@ export default class HomeScreen extends React.Component {
     if (this.designs.current && this.filters.current) {
       let top =
         this.designs.current.offsetTop - this.filters.current.clientHeight;
-      console.log(this.designs);
       window.scrollTo({ left: 0, top: top, behavior: "smooth" });
     }
   };
