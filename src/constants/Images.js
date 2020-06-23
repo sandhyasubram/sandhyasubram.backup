@@ -7,9 +7,15 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Burger Menu Animation",
+      IMAGE_SOURCE: "burger_menu_animation.gif",
+      LINK: "https://dribbble.com/shots/12237635-Burger-Menu-Animation",
+      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
       TITLE: "Snappy Toggle Button",
       IMAGE_SOURCE: "snappy_toggle_button.gif",
-      LINK: "https://dribbble.com/shots/12126114-Snappy-Toggle-Nav-Button",
+      LINK: "https://dribbble.com/shots/12126114-Snappy-Toggle-Button",
       CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
@@ -66,7 +72,6 @@ const Images = {
       LINK: "https://dribbble.com/shots/11334814-Presents",
       CATEGORY: [
         Strings.IMAGE_CATEGORY.VECTOR.FILTER,
-        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
       ],
     },   
     {
