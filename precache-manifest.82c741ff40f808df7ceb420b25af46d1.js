@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "170c0fe782b0fb52d7805b2505f928a4",
+    "revision": "1844af7c79378af9f7224fc6f2d753df",
     "url": "/index.html"
   },
   {
-    "revision": "f6016cdbd7bf4319a780",
+    "revision": "da7f844238109ee5af01",
     "url": "/static/css/main.708495e3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f6016cdbd7bf4319a780",
-    "url": "/static/js/main.d7d0e371.chunk.js"
+    "revision": "da7f844238109ee5af01",
+    "url": "/static/js/main.96329a4a.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -41,7 +41,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8b6734a1c8dab5dd84726985e568caa6",
-    "url": "/static/media/burger-menu-animation.8b6734a1.gif"
+    "url": "/static/media/burger_menu_animation.8b6734a1.gif"
   },
   {
     "revision": "a23c60a1430630fb87080cecc5dd86ab",
