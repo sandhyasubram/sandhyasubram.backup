@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1844af7c79378af9f7224fc6f2d753df",
+    "revision": "3b35115f59b5216f6c7cfbbb08c49d16",
     "url": "/index.html"
   },
   {
-    "revision": "da7f844238109ee5af01",
+    "revision": "214317c1117b48de18e3",
     "url": "/static/css/main.708495e3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da7f844238109ee5af01",
-    "url": "/static/js/main.96329a4a.chunk.js"
+    "revision": "214317c1117b48de18e3",
+    "url": "/static/js/main.8b00d334.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a23c60a1430630fb87080cecc5dd86ab",
     "url": "/static/media/cake.a23c60a1.png"
+  },
+  {
+    "revision": "7c850c68c7d443f05466d02ce8e178cb",
+    "url": "/static/media/carousel.7c850c68.gif"
   },
   {
     "revision": "53367dca88ab36318178120f8c9966b4",
