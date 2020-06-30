@@ -7,6 +7,12 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Mood Board UX Design",
+      IMAGE_SOURCE: "carousel.gif",
+      LINK: "https://dribbble.com/sandhya_subram",
+      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
       TITLE: "Burger Menu Animation",
       IMAGE_SOURCE: "burger_menu_animation.gif",
       LINK: "https://dribbble.com/shots/12237635-Burger-Menu-Animation",
@@ -50,9 +56,7 @@ const Images = {
       TITLE: "Three Finger Tap",
       IMAGE_SOURCE: "three_finger_tap.jpg",
       LINK: "https://dribbble.com/shots/4419922-Three-Finger-Tap",
-      CATEGORY: [
-        Strings.IMAGE_CATEGORY.VECTOR.FILTER,
-      ],
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
       TITLE: "Eiffel Tower",
@@ -70,10 +74,8 @@ const Images = {
       TITLE: "Presents",
       IMAGE_SOURCE: "presents.jpg",
       LINK: "https://dribbble.com/shots/11334814-Presents",
-      CATEGORY: [
-        Strings.IMAGE_CATEGORY.VECTOR.FILTER,
-      ],
-    },   
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
     {
       TITLE: "Rocket",
       IMAGE_SOURCE: "allspark_rocket.gif",
@@ -84,10 +86,7 @@ const Images = {
       TITLE: "Desserts",
       IMAGE_SOURCE: "dessert.png",
       LINK: "https://dribbble.com/shots/11836231-Dessert",
-      CATEGORY: [
-        Strings.IMAGE_CATEGORY.VECTOR.FILTER,
-        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
-      ],
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
       TITLE: "Unicorn Cake",
