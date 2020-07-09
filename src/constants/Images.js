@@ -7,9 +7,15 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Minimal Envelope Animation",
+      IMAGE_SOURCE: "envelope.gif",
+      LINK: "https://dribbble.com/shots/13108841-Minimal-Envelope-Animation",
+      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
       TITLE: "Mood Board UX Design",
       IMAGE_SOURCE: "carousel.gif",
-      LINK: "https://dribbble.com/sandhya_subram",
+      LINK: "https://dribbble.com/shots/12543872-Mood-Board-by-Colors-UX",
       CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
@@ -28,6 +34,12 @@ const Images = {
       TITLE: "Debug Concept",
       IMAGE_SOURCE: "debug_concept.jpg",
       LINK: "https://www.behance.net/gallery/59870847/Debugger-Logo",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
+    {
+      TITLE: "Conveyancing Matters",
+      IMAGE_SOURCE: "conveyancing_matters.jpg",
+      LINK: "https://dribbble.com/sandhya_subram",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
