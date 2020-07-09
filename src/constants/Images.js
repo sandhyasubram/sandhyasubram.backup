@@ -9,7 +9,7 @@ const Images = {
     {
       TITLE: "Minimal Envelope Animation",
       IMAGE_SOURCE: "envelope.gif",
-      LINK: "https://dribbble.com/shots/13108841-Minimal-Envelope-Animation",
+      LINK: "https://dribbble.com/sandhya_subram",
       CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
