@@ -14,7 +14,7 @@ const Images = {
     },
     {
       TITLE: "Mood Board UX Design",
-      IMAGE_SOURCE: "carousel.gif",
+      IMAGE_SOURCE: "moodboard_colors.gif",
       LINK: "https://dribbble.com/shots/12543872-Mood-Board-by-Colors-UX",
       CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
