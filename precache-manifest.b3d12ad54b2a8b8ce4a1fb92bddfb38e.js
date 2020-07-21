@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c83997d914b445ff0e88e0e90cc0f36b",
+    "revision": "d3c39f0fd9c480d3abc43383d5a27aac",
     "url": "/index.html"
   },
   {
-    "revision": "5d4fff0d834414985d1e",
+    "revision": "74fc3f8c3df4a8d77498",
     "url": "/static/css/main.708495e3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d4fff0d834414985d1e",
-    "url": "/static/js/main.79f5618a.chunk.js"
+    "revision": "74fc3f8c3df4a8d77498",
+    "url": "/static/js/main.e9c932b1.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -118,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "126d24027cf2ef81b2ddc2bc8a4f6e39",
     "url": "/static/media/toggle.126d2402.gif"
+  },
+  {
+    "revision": "f1de709604669f3cef62b61e304004da",
+    "url": "/static/media/wallet_app.f1de7096.gif"
   },
   {
     "revision": "ddd2c5c3c9bdc76a191826f92fd817ef",
