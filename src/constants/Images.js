@@ -7,6 +7,12 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Wallet App UI and Interaction",
+      IMAGE_SOURCE: "wallet_app.gif",
+      LINK: "https://dribbble.com/shots/13753739-Wallet-App-UI-Design-and-Interaction",
+      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
       TITLE: "Minimal Envelope Animation",
       IMAGE_SOURCE: "envelope.gif",
       LINK: "https://dribbble.com/shots/13118573-Minimal-Envelope-Animation",
