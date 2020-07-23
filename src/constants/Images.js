@@ -7,6 +7,12 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Minimal Blog Site UX",
+      IMAGE_SOURCE: "minimal_blog_ux.jpg",
+      LINK: "https://www.behance.net/gallery/101223437/Minimal-Blog-Site-UX",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
+    {
       TITLE: "Wallet App UI and Interaction",
       IMAGE_SOURCE: "wallet_app.gif",
       LINK: "https://dribbble.com/shots/13753739-Wallet-App-UI-Design-and-Interaction",
@@ -66,8 +72,7 @@ const Images = {
       IMAGE_SOURCE: "doctors_day.jpg",
       LINK: "https://dribbble.com/shots/4770653-Doctor-s-Day-Dribbble",
       CATEGORY: [
-        Strings.IMAGE_CATEGORY.VECTOR.FILTER,
-        Strings.IMAGE_CATEGORY.ANIMATION.FILTER,
+        Strings.IMAGE_CATEGORY.VECTOR.FILTER
       ],
     },
     {
