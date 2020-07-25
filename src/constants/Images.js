@@ -13,7 +13,7 @@ const Images = {
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
-      TITLE: "Inclusive sign-up form",
+      TITLE: "Inclusive signup form",
       IMAGE_SOURCE: "sign-up.jpg",
       LINK: "https://dribbble.com/shots/13904291-Inclusive-sign-up-form-for-Gender-Diversity-using-Adobe-XD",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
