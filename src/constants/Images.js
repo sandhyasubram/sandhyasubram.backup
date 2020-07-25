@@ -9,7 +9,13 @@ const Images = {
     {
       TITLE: "Minimal Blog Site UX",
       IMAGE_SOURCE: "minimal_blog_ux.jpg",
-      LINK: "https://www.behance.net/gallery/101223437/Minimal-Blog-Site-UX",
+      LINK: "https://dribbble.com/shots/13882335-Minimal-Blog-UI-Design-with-Geometric-Pattern",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
+    {
+      TITLE: "Inclusive sign-up form",
+      IMAGE_SOURCE: "sign-up.jpg",
+      LINK: "https://dribbble.com/shots/13904291-Inclusive-sign-up-form-for-Gender-Diversity-using-Adobe-XD",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
