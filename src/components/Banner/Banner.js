@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import PropTypes from "prop-types";
+import {Strings} from "../../constants";
 import "./Banner.scss";
 import { Scroller, SocialLinks } from "../../components";
 
@@ -27,7 +28,7 @@ const Banner = (props) => {
           <div className="content-container content-theme-dark">
             <div className="content-inner">
               <div className="content-center">
-              <h1> {props.bannerText.GREETING }<span className="content-font">,</span> {props.bannerText.NAME}</h1>
+              <h1> {props.bannerText.GREETING }<span className="content-font">{Strings.APPLICATION.SCREENS.HOME.BANNER_TEXT.SEPARATOR}</span> {props.bannerText.NAME}</h1>
                 <div className="banner-scroller">
                   <Scroller color="medium"
                     onClick={() => {
@@ -57,7 +58,7 @@ const Banner = (props) => {
                       );
                     })}
                   </div>
-                  <h1> {props.bannerText.GREETING }<span className="content-font">,</span> {props.bannerText.NAME}</h1>
+                  <h1> {props.bannerText.GREETING }<span className="content-font">{Strings.APPLICATION.SCREENS.HOME.BANNER_TEXT.SEPARATOR}</span> {props.bannerText.NAME}</h1>
                   <div className="text-bottom">
                     {/* <div>
                       UX DESIGNER &nbsp;|&nbsp; CAT PERSON &nbsp;|&nbsp; ALSO A

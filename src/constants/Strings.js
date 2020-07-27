@@ -9,6 +9,7 @@ const Strings = {
       HOME: {
         BANNER_TEXT: {
           GREETING: "Hi",
+          SEPARATOR: ",",
           NAME: "I'm Sandhya"
         }
       }
