@@ -16,7 +16,8 @@ const Strings = {
     },
     SOCIAL: [
       { link: "https://dribbble.com/sandhya_Subram", icon: "dribbble" },
-      { link: "https://www.behance.net/sandhya_subram", icon: "behance" },
+      { link: "https://www.behance.net/sandhya_subram", icon: "behance" },   
+      { link: "https://medium.com/@sandhya_subram", icon: "medium" },
       { link: "https://codepen.io/sandhya_subram/", icon: "codepen" },
       { link: "https://www.linkedin.in/in/sandhyasubram/", icon: "linkedin" },
       { link: "https://twitter.com/sandhya_subram", icon: "twitter" },
