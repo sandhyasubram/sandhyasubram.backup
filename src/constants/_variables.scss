@@ -8,6 +8,11 @@
     src: url(../assets/fonts/QanelasSoftDEMO-ExtraBold.otf);
 }
 
+@font-face {
+  font-family: rubikLocal;
+  src: url(../assets/fonts/Rubik-Black.ttf);
+}
+
 $mobile-width: 990px;
 
 @mixin mobile {

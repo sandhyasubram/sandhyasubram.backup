@@ -7,15 +7,15 @@ const Images = {
   },
   DESIGNS: [
     {
-      TITLE: "Minimal Blog Site UX",
-      IMAGE_SOURCE: "minimal_blog_ux.jpg",
-      LINK: "https://dribbble.com/shots/13882335-Minimal-Blog-UI-Design-with-Geometric-Pattern",
+      TITLE: "Reader App Homepage Design",
+      IMAGE_SOURCE: "reader-app-homepage.jpg",
+      LINK: "https://www.behance.net/gallery/101773967/Reader-App-Homepage-Design",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
-      TITLE: "Inclusive signup form",
-      IMAGE_SOURCE: "sign-up.jpg",
-      LINK: "https://dribbble.com/shots/13904291-Inclusive-sign-up-form-for-Gender-Diversity-using-Adobe-XD",
+      TITLE: "Minimal Blog Site UX",
+      IMAGE_SOURCE: "minimal_blog_ux.jpg",
+      LINK: "https://dribbble.com/shots/13882335-Minimal-Blog-UI-Design-with-Geometric-Pattern",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
@@ -23,6 +23,12 @@ const Images = {
       IMAGE_SOURCE: "wallet_app.gif",
       LINK: "https://dribbble.com/shots/13753739-Wallet-App-UI-Design-and-Interaction",
       CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
+      TITLE: "Inclusive signup form",
+      IMAGE_SOURCE: "sign-up.jpg",
+      LINK: "https://dribbble.com/shots/13904291-Inclusive-sign-up-form-for-Gender-Diversity-using-Adobe-XD",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
       TITLE: "Minimal Envelope Animation",
