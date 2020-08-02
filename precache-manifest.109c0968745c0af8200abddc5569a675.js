@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d186c8ebf94dc983040f028c317561a",
+    "revision": "959f005fec25370994cf4bb59128006c",
     "url": "/index.html"
   },
   {
-    "revision": "1a342ee135d760b75f49",
-    "url": "/static/css/main.708495e3.chunk.css"
+    "revision": "1f3d2c0c6e68a31d17c0",
+    "url": "/static/css/main.803c4f13.chunk.css"
   },
   {
     "revision": "e5b4dd759dd9e58764ba",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a342ee135d760b75f49",
-    "url": "/static/js/main.6dcd0a61.chunk.js"
+    "revision": "1f3d2c0c6e68a31d17c0",
+    "url": "/static/js/main.6da86eef.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "396e6a5ef203042c516ad8898b3ce617",
     "url": "/static/media/QanelasSoftDEMO-ExtraBold.396e6a5e.otf"
+  },
+  {
+    "revision": "fba2019b0b09731cc334297955971642",
+    "url": "/static/media/Rubik-Black.fba2019b.ttf"
   },
   {
     "revision": "8053e61453a601beac1411d7f957d78b",
@@ -102,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "114082ef9e39ac75578498b5678f1206",
     "url": "/static/media/presents.114082ef.jpg"
+  },
+  {
+    "revision": "f730adefee243aacc87a04c22fef7787",
+    "url": "/static/media/reader-app-homepage.f730adef.jpg"
   },
   {
     "revision": "fda2b56ce40c2622526bfe2742af5839",
