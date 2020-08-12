@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.803c4f13.chunk.css",
-    "main.js": "/static/js/main.6da86eef.chunk.js",
-    "main.js.map": "/static/js/main.6da86eef.chunk.js.map",
+    "main.css": "/static/css/main.935dd448.chunk.css",
+    "main.js": "/static/js/main.003b304c.chunk.js",
+    "main.js.map": "/static/js/main.003b304c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/js/2.06625184.chunk.js": "/static/js/2.06625184.chunk.js",
     "static/js/2.06625184.chunk.js.map": "/static/js/2.06625184.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.109c0968745c0af8200abddc5569a675.js": "/precache-manifest.109c0968745c0af8200abddc5569a675.js",
+    "precache-manifest.8b021eba2d925d7cf0b257090afa8dbb.js": "/precache-manifest.8b021eba2d925d7cf0b257090afa8dbb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.803c4f13.chunk.css.map": "/static/css/main.803c4f13.chunk.css.map",
+    "static/css/main.935dd448.chunk.css.map": "/static/css/main.935dd448.chunk.css.map",
     "static/js/2.06625184.chunk.js.LICENSE.txt": "/static/js/2.06625184.chunk.js.LICENSE.txt",
     "static/media/AboutScreen.scss": "/static/media/workspace_1.ddd2c5c3.jpg",
     "static/media/allspark_rocket.gif": "/static/media/allspark_rocket.8053e614.gif",
@@ -18,6 +18,7 @@
     "static/media/cake.png": "/static/media/cake.a23c60a1.png",
     "static/media/cheeky_ghost.gif": "/static/media/cheeky_ghost.53367dca.gif",
     "static/media/conveyancing_matters.jpg": "/static/media/conveyancing_matters.3b9e9fb0.jpg",
+    "static/media/datepicker-redesign.jpg": "/static/media/datepicker-redesign.52b59ba0.jpg",
     "static/media/debug_concept.jpg": "/static/media/debug_concept.2e781d14.jpg",
     "static/media/dessert.png": "/static/media/dessert.e87ed1d8.png",
     "static/media/doctors_day.jpg": "/static/media/doctors_day.aed9a5e0.jpg",
@@ -27,6 +28,7 @@
     "static/media/koala.jpg": "/static/media/koala.7af422d0.jpg",
     "static/media/minimal_blog_ux.jpg": "/static/media/minimal_blog_ux.62064d83.jpg",
     "static/media/moodboard_colors.gif": "/static/media/moodboard_colors.7c850c68.gif",
+    "static/media/onfluence.jpg": "/static/media/onfluence.d6363e6f.jpg",
     "static/media/posterfox.jpg": "/static/media/posterfox.7595b75e.jpg",
     "static/media/presents.jpg": "/static/media/presents.114082ef.jpg",
     "static/media/reader-app-homepage.jpg": "/static/media/reader-app-homepage.f730adef.jpg",
@@ -40,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.06625184.chunk.js",
-    "static/css/main.803c4f13.chunk.css",
-    "static/js/main.6da86eef.chunk.js"
+    "static/css/main.935dd448.chunk.css",
+    "static/js/main.003b304c.chunk.js"
   ]
 }
