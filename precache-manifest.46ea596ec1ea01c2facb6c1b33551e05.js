@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "959f005fec25370994cf4bb59128006c",
+    "revision": "bfd875da203d5c5d7c16c45d3a127803",
     "url": "/index.html"
   },
   {
-    "revision": "1f3d2c0c6e68a31d17c0",
-    "url": "/static/css/main.803c4f13.chunk.css"
+    "revision": "df8f160ce4e362d8a6b2",
+    "url": "/static/css/main.935dd448.chunk.css"
   },
   {
     "revision": "e5b4dd759dd9e58764ba",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f3d2c0c6e68a31d17c0",
-    "url": "/static/js/main.6da86eef.chunk.js"
+    "revision": "df8f160ce4e362d8a6b2",
+    "url": "/static/js/main.a97c2fc7.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cover_4.4d93e5e8.jpg"
   },
   {
+    "revision": "52b59ba0c8b2d6ff33432e16fde5ca1b",
+    "url": "/static/media/datepicker-redesign.52b59ba0.jpg"
+  },
+  {
     "revision": "2e781d142a179b834640277f4c9aa24d",
     "url": "/static/media/debug_concept.2e781d14.jpg"
   },
@@ -98,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c850c68c7d443f05466d02ce8e178cb",
     "url": "/static/media/moodboard_colors.7c850c68.gif"
+  },
+  {
+    "revision": "d6363e6f65f5ffea6a03102d7cdb37f9",
+    "url": "/static/media/onfluence.d6363e6f.jpg"
   },
   {
     "revision": "7595b75e1c2d19e40cd4a613873ef402",
