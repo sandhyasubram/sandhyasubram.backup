@@ -7,28 +7,40 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Date Picker Redesign",
+      IMAGE_SOURCE: "datepicker-redesign.jpg",
+      LINK: "https://dribbble.com/sandhya_subram",
+      CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE.FILTER, Strings.IMAGE_CATEGORY.WEB.FILTER],
+    },
+    {
+      TITLE: "Onfluence Logo Design",
+      IMAGE_SOURCE: "onfluence.jpg",
+      LINK: "https://dribbble.com/sandhya_subram",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
+    {
       TITLE: "Reader App Homepage Design",
       IMAGE_SOURCE: "reader-app-homepage.jpg",
-      LINK: "https://www.behance.net/gallery/101773967/Reader-App-Homepage-Design",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+      LINK: "https://dribbble.com/shots/13956967-Reader-App-Homepage-Design",
+      CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE.FILTER],
     },
     {
       TITLE: "Minimal Blog Site UX",
       IMAGE_SOURCE: "minimal_blog_ux.jpg",
       LINK: "https://dribbble.com/shots/13882335-Minimal-Blog-UI-Design-with-Geometric-Pattern",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+      CATEGORY: [Strings.IMAGE_CATEGORY.WEB.FILTER],
     },
     {
       TITLE: "Wallet App UI and Interaction",
       IMAGE_SOURCE: "wallet_app.gif",
       LINK: "https://dribbble.com/shots/13753739-Wallet-App-UI-Design-and-Interaction",
-      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+      CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Inclusive signup form",
       IMAGE_SOURCE: "sign-up.jpg",
       LINK: "https://dribbble.com/shots/13904291-Inclusive-sign-up-form-for-Gender-Diversity-using-Adobe-XD",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+      CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE.FILTER],
     },
     {
       TITLE: "Minimal Envelope Animation",
@@ -40,13 +52,13 @@ const Images = {
       TITLE: "Mood Board UX Design",
       IMAGE_SOURCE: "moodboard_colors.gif",
       LINK: "https://dribbble.com/shots/12543872-Mood-Board-by-Colors-UX",
-      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+      CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Burger Menu Animation",
       IMAGE_SOURCE: "burger_menu_animation.gif",
       LINK: "https://dribbble.com/shots/12237635-Burger-Menu-Animation",
-      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+      CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Snappy Toggle Button",
@@ -115,7 +127,7 @@ const Images = {
       TITLE: "Rocket",
       IMAGE_SOURCE: "allspark_rocket.gif",
       LINK: "https://dribbble.com/sandhya_subram",
-      CATEGORY: [Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Desserts",

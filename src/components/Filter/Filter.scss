@@ -17,12 +17,10 @@
       letter-spacing: 1px;
       font-weight: 500;
       border-bottom: 1px solid transparent;
+      margin: 10px 20px 10px 20px;
       
       span {
         color: #50507f;
-      }
-      &:not(:last-child) {
-        margin-right: 40px;
       }
       &:hover {
         cursor: pointer;
