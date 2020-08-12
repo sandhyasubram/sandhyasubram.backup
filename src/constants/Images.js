@@ -9,7 +9,7 @@ const Images = {
     {
       TITLE: "Date Picker Redesign",
       IMAGE_SOURCE: "datepicker-redesign.jpg",
-      LINK: "https://dribbble.com/sandhya_subram",
+      LINK: "https://dribbble.com/shots/14008248-Minimal-Date-Picker-Component-Redesigned-UX",
       CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE.FILTER, Strings.IMAGE_CATEGORY.WEB.FILTER],
     },
     {
