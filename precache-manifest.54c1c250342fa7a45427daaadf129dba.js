@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fc5ddf2a3d18adf65dddd4d6264e57a",
+    "revision": "811ccaf7c69b672aedd4819f448ae7b7",
     "url": "/index.html"
   },
   {
-    "revision": "ccad374b051ebeedebcd",
+    "revision": "7be9245cc84b4456378b",
     "url": "/static/css/main.935dd448.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ccad374b051ebeedebcd",
-    "url": "/static/js/main.f7b031ee.chunk.js"
+    "revision": "7be9245cc84b4456378b",
+    "url": "/static/js/main.bd8e4dd7.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -134,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6dca4b017aa9a22e0534abfba80597f4",
     "url": "/static/media/snappy_toggle_button.6dca4b01.gif"
+  },
+  {
+    "revision": "c42253e040ac974c97afe18324c5916b",
+    "url": "/static/media/speedtest.c42253e0.jpg"
   },
   {
     "revision": "d54fbcdcff70a6371c977de1ac3ecd5d",

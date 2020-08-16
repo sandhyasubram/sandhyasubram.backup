@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.935dd448.chunk.css",
-    "main.js": "/static/js/main.f7b031ee.chunk.js",
-    "main.js.map": "/static/js/main.f7b031ee.chunk.js.map",
+    "main.js": "/static/js/main.bd8e4dd7.chunk.js",
+    "main.js.map": "/static/js/main.bd8e4dd7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/js/2.06625184.chunk.js": "/static/js/2.06625184.chunk.js",
     "static/js/2.06625184.chunk.js.map": "/static/js/2.06625184.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ba44a300d6f457a5595a35e8666aa062.js": "/precache-manifest.ba44a300d6f457a5595a35e8666aa062.js",
+    "precache-manifest.54c1c250342fa7a45427daaadf129dba.js": "/precache-manifest.54c1c250342fa7a45427daaadf129dba.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.935dd448.chunk.css.map": "/static/css/main.935dd448.chunk.css.map",
     "static/js/2.06625184.chunk.js.LICENSE.txt": "/static/js/2.06625184.chunk.js.LICENSE.txt",
@@ -35,6 +35,7 @@
     "static/media/sign-up.jpg": "/static/media/sign-up.bbd49e2e.jpg",
     "static/media/skyrocket.jpg": "/static/media/skyrocket.740908d9.jpg",
     "static/media/snappy_toggle_button.gif": "/static/media/snappy_toggle_button.6dca4b01.gif",
+    "static/media/speedtest.jpg": "/static/media/speedtest.c42253e0.jpg",
     "static/media/three_finger_tap.jpg": "/static/media/three_finger_tap.d54fbcdc.jpg",
     "static/media/toggle.gif": "/static/media/toggle.126d2402.gif",
     "static/media/wallet_app.gif": "/static/media/wallet_app.f1de7096.gif"
@@ -43,6 +44,6 @@
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.06625184.chunk.js",
     "static/css/main.935dd448.chunk.css",
-    "static/js/main.f7b031ee.chunk.js"
+    "static/js/main.bd8e4dd7.chunk.js"
   ]
 }
