@@ -7,6 +7,12 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Speed Test App Animation",
+      IMAGE_SOURCE: "speedtest.jpg",
+      LINK: "https://dribbble.com/shots/14031037-Speed-Test-App-Animation",
+      CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },   
+    {
       TITLE: "Date Picker Redesign",
       IMAGE_SOURCE: "datepicker-redesign.jpg",
       LINK: "https://dribbble.com/shots/14008248-Minimal-Date-Picker-Component-Redesigned-UX",
