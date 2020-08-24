@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "811ccaf7c69b672aedd4819f448ae7b7",
+    "revision": "b0a2a9177a12725f6399e81c623a05a4",
     "url": "/index.html"
   },
   {
-    "revision": "7be9245cc84b4456378b",
-    "url": "/static/css/main.935dd448.chunk.css"
+    "revision": "b83290ad3fae2d7fd540",
+    "url": "/static/css/main.ba3d5518.chunk.css"
   },
   {
     "revision": "e5b4dd759dd9e58764ba",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7be9245cc84b4456378b",
-    "url": "/static/js/main.bd8e4dd7.chunk.js"
+    "revision": "b83290ad3fae2d7fd540",
+    "url": "/static/js/main.7b830ab4.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d93e5e824f76c38bed39fb4f373f74b",
     "url": "/static/media/cover_4.4d93e5e8.jpg"
+  },
+  {
+    "revision": "0804892dcdc30d1761d21798b157f6d1",
+    "url": "/static/media/datepicker-redesign-tips.0804892d.jpg"
   },
   {
     "revision": "52b59ba0c8b2d6ff33432e16fde5ca1b",
@@ -122,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fda2b56ce40c2622526bfe2742af5839",
     "url": "/static/media/room.fda2b56c.jpg"
+  },
+  {
+    "revision": "8c71ef2b829d5131d037362c2bd4ffd2",
+    "url": "/static/media/rounded-ux.8c71ef2b.png"
   },
   {
     "revision": "bbd49e2e37abc85763aa6222cc516944",
