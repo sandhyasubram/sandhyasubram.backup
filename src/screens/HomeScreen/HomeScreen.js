@@ -92,7 +92,7 @@ export default class HomeScreen extends React.Component {
             links={Strings.APPLICATION.SOCIAL}
           />
         </div>
-        <div>
+        <div className="work-container">
           <div className="filter-container" ref={this.filters}>
             <Filter
               data={Object.values(Strings.IMAGE_CATEGORY)}

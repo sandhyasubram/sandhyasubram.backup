@@ -1,12 +1,14 @@
 @import "../../constants/_variables.scss";
 
 .filter-wrapper {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.03);
+
   .filters {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0;
 
     li.filter {

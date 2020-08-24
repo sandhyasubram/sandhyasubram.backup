@@ -13,7 +13,7 @@ const Menu = props => {
         active={props.path === Strings.APPLICATION.ROUTES.HOME ? "active" : ""}
       />
       <MenuItem
-        title="Know Me!"
+        title="Say Hi!"
         path={Strings.APPLICATION.ROUTES.ABOUT}
         active={props.path === Strings.APPLICATION.ROUTES.ABOUT ? "active" : ""}
       />

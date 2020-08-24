@@ -11,6 +11,8 @@ export default class AboutScreen extends React.Component {
         <Container padding="padding-medium" height="full">
           <div class="text-wrap">
             <div>Sorry! This section is under construction. Please check back later!</div>
+            <div>Hello there! I'm Sandhya. I design User Experiences for a living. </div>
+            <div>Social Links go here </div>
           </div>
           <div class="gallery-wrap">
             <div class="item item-1"></div>

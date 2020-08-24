@@ -21,15 +21,16 @@ const Strings = {
       { link: "https://codepen.io/sandhya_subram/", icon: "codepen" },
       { link: "https://www.linkedin.in/in/sandhyasubram/", icon: "linkedin" },
       { link: "https://twitter.com/sandhya_subram", icon: "twitter" },
-      { link: "https://www.instagram.com/sandhya_subram", icon: "instagram" }
+      { link: "https://www.instagram.com/sandhya_subram", icon: "instagram" },
+      { link: "mailto://subramaniyansandhya@gmail.com", icon: "envelope" }
     ]
   },
   IMAGE_CATEGORY: {
-    ALL: { NAME: "All", FILTER: "show-all" },
-    MOBILE: { NAME: "Mobile", FILTER: "mobile-design" },
-    WEB: { NAME: "Web", FILTER: "web-design" },
+    MOBILE_WEB: { NAME: "Mobile/Web", FILTER: "mobile-web" },
     ANIMATION: { NAME: "Animation", FILTER: "animation" },
-    VECTOR: { NAME: "Vectors", FILTER: "vector" },
+    BLOG: { NAME: "Blogs", FILTER: "blog"},
+    VECTOR: { NAME: "Vectors", FILTER: "vector" },   
+    ALL: { NAME: "Show All", FILTER: "show-all" },
   }
 };
 

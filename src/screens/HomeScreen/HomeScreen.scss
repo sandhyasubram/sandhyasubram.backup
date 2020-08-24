@@ -1,6 +1,7 @@
 @import "../../constants/_variables.scss";
 
 $button-size: 50px;
+$filter-header-height: 88px;
 
 .home-screen-container {
   .intro-text {
@@ -28,6 +29,9 @@ $button-size: 50px;
       display: block;
       text-shadow: $shadow1;
     }
+  }
+  .work-container {
+    min-height: calc(100vh - #{$filter-header-height});
   }
   .footer {
     display: flex;
