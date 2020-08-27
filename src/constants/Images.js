@@ -49,6 +49,12 @@ const Images = {
       CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE_WEB.FILTER],
     }, 
     {
+      TITLE: "Minimal Elephant",
+      IMAGE_SOURCE: "dribbble-elephant.jpg",
+      LINK: "https://dribbble.com/shots/14091136-Minimal-Dribbble-Elephant",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
+    {
       TITLE: "Inclusive signup form",
       IMAGE_SOURCE: "sign-up.jpg",
       LINK: "https://dribbble.com/shots/13904291-Inclusive-sign-up-form-for-Gender-Diversity-using-Adobe-XD",
@@ -82,6 +88,12 @@ const Images = {
       TITLE: "Debug Concept",
       IMAGE_SOURCE: "debug_concept.jpg",
       LINK: "https://www.behance.net/gallery/59870847/Debugger-Logo",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
+    {
+      TITLE: "Elebucket",
+      IMAGE_SOURCE: "elebucket.jpg",
+      LINK: "https://dribbble.com/shots/14091136-Minimal-Dribbble-Elephant",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
