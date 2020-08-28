@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, Filter, Header, List, Scroller } from "../../components";
+import { Banner, Filter, Header, List, Scroller, SocialLinks } from "../../components";
 import { Images, Strings } from "../../constants";
 import "./HomeScreen.scss";
 
@@ -114,7 +114,23 @@ export default class HomeScreen extends React.Component {
             }}
           />
         </div>
-        <div className="footer"> That's all folks! </div>
+        <div className="footer"> 
+          {/* <div>
+            New Designs are brewing! Check back later :)
+          </div> */}
+          <div>
+            {Strings.APPLICATION.SOCIAL.map((link) => {
+              return (
+                <SocialLinks
+                  key={link.icon}
+                  icon={link.icon}
+                  link={link.link}
+                  target="_blank"
+                />
+              );
+            })}
+          </div>
+        </div>
       </div>
     );
   }

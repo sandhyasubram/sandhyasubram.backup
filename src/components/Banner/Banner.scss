@@ -121,7 +121,7 @@ a {
     font-family: $content_font;
     font-size: 1.4rem;
     font-weight: 500;
-    color: $black;
+    color: $grey;
     text-shadow: 0 0.4rem 0.3rem $shade2;
   }
 }
@@ -134,7 +134,7 @@ a {
       text-shadow: 0 0.4rem 0.5rem $shade1;
     }
     .text-bottom {
-      bottom: -1rem;
+      bottom: -1.8rem;
       font-size: 1rem;
       line-height: 1.5rem;
     }

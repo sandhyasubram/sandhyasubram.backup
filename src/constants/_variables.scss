@@ -25,17 +25,16 @@ $mobile-width: 990px;
 
 $white: #f7f7f7;
 $black: #444;
+$grey: #7d7d93;
+
 $purple_overlay: radial-gradient(
   circle at top left,
   rgba(80, 80, 127, 0.5),
   rgba(39, 39, 81, 0.5));
+$purple_faded: #bdbbd3;
 $purple_light: #8F8CA9;
 $purple_medium: #6c6c9c;
 $purple_dark: #50507f;
-
-// color
-// dark - #50507F 
-// light - #272751
 
 $purple_gradient: radial-gradient(
     circle at top left,

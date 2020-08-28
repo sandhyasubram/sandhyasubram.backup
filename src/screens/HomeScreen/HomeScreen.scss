@@ -1,6 +1,6 @@
 @import "../../constants/_variables.scss";
 
-$button-size: 50px;
+$button-size: 40px;
 $filter-header-height: 88px;
 
 .home-screen-container {
@@ -16,7 +16,7 @@ $filter-header-height: 88px;
   }
   .scroll-to-top-container {
     position: fixed;
-    bottom: 30px;
+    bottom: 35px;
     right: 30px;
     width: $button-size;
     height: $button-size;
@@ -24,6 +24,7 @@ $filter-header-height: 88px;
     z-index: 7;
     display: none;
     background-color: $purple_dark;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.03);
 
     &.active {
       display: block;
@@ -34,9 +35,19 @@ $filter-header-height: 88px;
     min-height: calc(100vh - #{$filter-header-height});
   }
   .footer {
-    display: flex;
-    justify-content: center;
-    font-size: 0.9rem;
-    padding: 2.5rem;
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    color: $white;
+    background-color: $purple_dark;
+    padding: 2rem;
+    z-index: 8;
+
+    a.social-links {
+      font-size: 1.3rem;
+      color: $purple_faded;
+      text-shadow: 0 0.6rem 0.8rem rgba(0, 0, 0, 0.2);
+    }
   }
 }
