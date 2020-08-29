@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.50aff39a.chunk.css",
-    "main.js": "/static/js/main.ddc991de.chunk.js",
-    "main.js.map": "/static/js/main.ddc991de.chunk.js.map",
+    "main.js": "/static/js/main.e1820bdb.chunk.js",
+    "main.js.map": "/static/js/main.e1820bdb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/js/2.06625184.chunk.js": "/static/js/2.06625184.chunk.js",
     "static/js/2.06625184.chunk.js.map": "/static/js/2.06625184.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.033043237c451080c22733759dc23e12.js": "/precache-manifest.033043237c451080c22733759dc23e12.js",
+    "precache-manifest.f7103ddab00b987b327855dd68beddfe.js": "/precache-manifest.f7103ddab00b987b327855dd68beddfe.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.50aff39a.chunk.css.map": "/static/css/main.50aff39a.chunk.css.map",
     "static/js/2.06625184.chunk.js.LICENSE.txt": "/static/js/2.06625184.chunk.js.LICENSE.txt",
@@ -25,7 +25,7 @@
     "static/media/doctors_day.jpg": "/static/media/doctors_day.aed9a5e0.jpg",
     "static/media/dribbble-elephant.jpg": "/static/media/dribbble-elephant.f80dc873.jpg",
     "static/media/eiffel_tower.jpg": "/static/media/eiffel_tower.d4ca0159.jpg",
-    "static/media/elebucket.jpg": "/static/media/elebucket.ddc29e1d.jpg",
+    "static/media/elebucket.jpg": "/static/media/elebucket.daea44b7.jpg",
     "static/media/envelope.gif": "/static/media/envelope.fb2b31de.gif",
     "static/media/kitties.jpg": "/static/media/kitties.5c84a266.jpg",
     "static/media/koala.jpg": "/static/media/koala.7af422d0.jpg",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.06625184.chunk.js",
     "static/css/main.50aff39a.chunk.css",
-    "static/js/main.ddc991de.chunk.js"
+    "static/js/main.e1820bdb.chunk.js"
   ]
 }
