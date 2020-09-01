@@ -7,6 +7,12 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Podcasts App",
+      IMAGE_SOURCE: "podcasts.jpg",
+      LINK: "https://dribbble.com/shots/14121384-Podcasts-App-Design",
+      CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE_WEB.FILTER],
+    }, 
+    {
       TITLE: "Speed Test App",
       IMAGE_SOURCE: "speedtest.jpg",
       LINK: "https://dribbble.com/shots/14031037-Speed-Test-App-Animation",
