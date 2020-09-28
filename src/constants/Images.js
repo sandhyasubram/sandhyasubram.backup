@@ -7,6 +7,12 @@ const Images = {
   },
   DESIGNS: [
     {
+      TITLE: "Husky Puppy",
+      IMAGE_SOURCE: "husky.png",
+      LINK: "https://dribbble.com/shots/14287008-Cute-Husky-Puppy",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
       TITLE: "Podcasts App",
       IMAGE_SOURCE: "podcasts.jpg",
       LINK: "https://dribbble.com/shots/14121384-Podcasts-App-Design",
