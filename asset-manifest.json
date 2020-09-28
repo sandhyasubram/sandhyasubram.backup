@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.50aff39a.chunk.css",
-    "main.js": "/static/js/main.a9c09833.chunk.js",
-    "main.js.map": "/static/js/main.a9c09833.chunk.js.map",
+    "main.js": "/static/js/main.ed8e5d9d.chunk.js",
+    "main.js.map": "/static/js/main.ed8e5d9d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/js/2.06625184.chunk.js": "/static/js/2.06625184.chunk.js",
     "static/js/2.06625184.chunk.js.map": "/static/js/2.06625184.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3aa0536a7b148dd49134c4f4e4ae0ec7.js": "/precache-manifest.3aa0536a7b148dd49134c4f4e4ae0ec7.js",
+    "precache-manifest.bcb5d51a32ca521873c244aa14affd50.js": "/precache-manifest.bcb5d51a32ca521873c244aa14affd50.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.50aff39a.chunk.css.map": "/static/css/main.50aff39a.chunk.css.map",
     "static/js/2.06625184.chunk.js.LICENSE.txt": "/static/js/2.06625184.chunk.js.LICENSE.txt",
@@ -27,6 +27,7 @@
     "static/media/eiffel_tower.jpg": "/static/media/eiffel_tower.d4ca0159.jpg",
     "static/media/elebucket.jpg": "/static/media/elebucket.daea44b7.jpg",
     "static/media/envelope.gif": "/static/media/envelope.fb2b31de.gif",
+    "static/media/husky.png": "/static/media/husky.c83b328c.png",
     "static/media/kitties.jpg": "/static/media/kitties.5c84a266.jpg",
     "static/media/koala.jpg": "/static/media/koala.7af422d0.jpg",
     "static/media/minimal_blog_ux.jpg": "/static/media/minimal_blog_ux.62064d83.jpg",
@@ -49,6 +50,6 @@
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.06625184.chunk.js",
     "static/css/main.50aff39a.chunk.css",
-    "static/js/main.a9c09833.chunk.js"
+    "static/js/main.ed8e5d9d.chunk.js"
   ]
 }
