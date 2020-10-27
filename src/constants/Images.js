@@ -7,12 +7,6 @@ const Images = {
   },
   DESIGNS: [
     {
-      TITLE: "Husky Puppy",
-      IMAGE_SOURCE: "husky.png",
-      LINK: "https://dribbble.com/shots/14287008-Cute-Husky-Puppy",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
-    },
-    {
       TITLE: "Podcasts App",
       IMAGE_SOURCE: "podcasts.jpg",
       LINK: "https://dribbble.com/shots/14121384-Podcasts-App-Design",
@@ -23,7 +17,25 @@ const Images = {
       IMAGE_SOURCE: "speedtest.jpg",
       LINK: "https://dribbble.com/shots/14031037-Speed-Test-App-Animation",
       CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE_WEB.FILTER],
-    },  
+    }, 
+    {
+      TITLE: "Doodle Yoga",
+      IMAGE_SOURCE: "doodle_yoga.jpg",
+      LINK: "https://dribbble.com/sandhya_subram",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
+    {
+      TITLE: "Couple Anniversary",
+      IMAGE_SOURCE: "couple_gif.gif",
+      LINK: "https://dribbble.com/sandhya_subram",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
+      TITLE: "Husky Puppy",
+      IMAGE_SOURCE: "husky_gif.gif",
+      LINK: "https://dribbble.com/shots/14287008-Cute-Husky-Puppy",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    }, 
     {
       TITLE: "Date Input Experience",
       IMAGE_SOURCE: "datepicker-redesign-tips.jpg",
