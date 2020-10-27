@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4ba2ee4dfb4daccc0bd59cf4a080c3d",
+    "revision": "3523c026b89df8c7aeb4e016a5a83b82",
     "url": "/index.html"
   },
   {
-    "revision": "6f32f1221ef52f2550cd",
+    "revision": "c1c6efdf9cff61ac8b19",
     "url": "/static/css/main.50aff39a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f32f1221ef52f2550cd",
-    "url": "/static/js/main.ed8e5d9d.chunk.js"
+    "revision": "c1c6efdf9cff61ac8b19",
+    "url": "/static/js/main.1a2f5755.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/conveyancing_matters.3b9e9fb0.jpg"
   },
   {
+    "revision": "4faaa5f1a35fc0cf46ac732334f9d3cd",
+    "url": "/static/media/couple_gif.4faaa5f1.gif"
+  },
+  {
     "revision": "4d93e5e824f76c38bed39fb4f373f74b",
     "url": "/static/media/cover_4.4d93e5e8.jpg"
   },
@@ -84,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/doctors_day.aed9a5e0.jpg"
   },
   {
+    "revision": "defc5e52106e50ba270c2f98b5813f5b",
+    "url": "/static/media/doodle_yoga.defc5e52.jpg"
+  },
+  {
     "revision": "f80dc8734eac7cf58de7de7369f6ab5d",
     "url": "/static/media/dribbble-elephant.f80dc873.jpg"
   },
@@ -100,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/envelope.fb2b31de.gif"
   },
   {
-    "revision": "c83b328c2d7f83a814ac7cb1a7fceed1",
-    "url": "/static/media/husky.c83b328c.png"
+    "revision": "8b94b1515f3fb7c5bcc8623f00c4c643",
+    "url": "/static/media/husky_gif.8b94b151.gif"
   },
   {
     "revision": "5c84a266faf812f568cb5c01b08e849d",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.50aff39a.chunk.css",
-    "main.js": "/static/js/main.ed8e5d9d.chunk.js",
-    "main.js.map": "/static/js/main.ed8e5d9d.chunk.js.map",
+    "main.js": "/static/js/main.1a2f5755.chunk.js",
+    "main.js.map": "/static/js/main.1a2f5755.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/js/2.06625184.chunk.js": "/static/js/2.06625184.chunk.js",
     "static/js/2.06625184.chunk.js.map": "/static/js/2.06625184.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bcb5d51a32ca521873c244aa14affd50.js": "/precache-manifest.bcb5d51a32ca521873c244aa14affd50.js",
+    "precache-manifest.474a10d2457388477c7f5c8be65bf078.js": "/precache-manifest.474a10d2457388477c7f5c8be65bf078.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.50aff39a.chunk.css.map": "/static/css/main.50aff39a.chunk.css.map",
     "static/js/2.06625184.chunk.js.LICENSE.txt": "/static/js/2.06625184.chunk.js.LICENSE.txt",
@@ -18,16 +18,18 @@
     "static/media/cake.png": "/static/media/cake.a23c60a1.png",
     "static/media/cheeky_ghost.gif": "/static/media/cheeky_ghost.53367dca.gif",
     "static/media/conveyancing_matters.jpg": "/static/media/conveyancing_matters.3b9e9fb0.jpg",
+    "static/media/couple_gif.gif": "/static/media/couple_gif.4faaa5f1.gif",
     "static/media/datepicker-redesign-tips.jpg": "/static/media/datepicker-redesign-tips.0804892d.jpg",
     "static/media/datepicker-redesign.jpg": "/static/media/datepicker-redesign.52b59ba0.jpg",
     "static/media/debug_concept.jpg": "/static/media/debug_concept.2e781d14.jpg",
     "static/media/dessert.png": "/static/media/dessert.e87ed1d8.png",
     "static/media/doctors_day.jpg": "/static/media/doctors_day.aed9a5e0.jpg",
+    "static/media/doodle_yoga.jpg": "/static/media/doodle_yoga.defc5e52.jpg",
     "static/media/dribbble-elephant.jpg": "/static/media/dribbble-elephant.f80dc873.jpg",
     "static/media/eiffel_tower.jpg": "/static/media/eiffel_tower.d4ca0159.jpg",
     "static/media/elebucket.jpg": "/static/media/elebucket.daea44b7.jpg",
     "static/media/envelope.gif": "/static/media/envelope.fb2b31de.gif",
-    "static/media/husky.png": "/static/media/husky.c83b328c.png",
+    "static/media/husky_gif.gif": "/static/media/husky_gif.8b94b151.gif",
     "static/media/kitties.jpg": "/static/media/kitties.5c84a266.jpg",
     "static/media/koala.jpg": "/static/media/koala.7af422d0.jpg",
     "static/media/minimal_blog_ux.jpg": "/static/media/minimal_blog_ux.62064d83.jpg",
@@ -50,6 +52,6 @@
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.06625184.chunk.js",
     "static/css/main.50aff39a.chunk.css",
-    "static/js/main.ed8e5d9d.chunk.js"
+    "static/js/main.1a2f5755.chunk.js"
   ]
 }
