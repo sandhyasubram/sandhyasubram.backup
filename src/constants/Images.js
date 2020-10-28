@@ -79,6 +79,12 @@ const Images = {
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
     },
     {
+      TITLE: "Happy Halloween",
+      IMAGE_SOURCE: "halloween_gif.gif",
+      LINK: "https://dribbble.com/sandhya_subram",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
       TITLE: "Inclusive signup form",
       IMAGE_SOURCE: "sign-up.jpg",
       LINK: "https://dribbble.com/shots/13904291-Inclusive-sign-up-form-for-Gender-Diversity-using-Adobe-XD",
