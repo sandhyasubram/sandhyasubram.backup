@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3523c026b89df8c7aeb4e016a5a83b82",
+    "revision": "d44d22b05e318672f6a2607bce670e4b",
     "url": "/index.html"
   },
   {
-    "revision": "c1c6efdf9cff61ac8b19",
+    "revision": "8785e482c3cc4e5c8892",
     "url": "/static/css/main.50aff39a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1c6efdf9cff61ac8b19",
-    "url": "/static/js/main.1a2f5755.chunk.js"
+    "revision": "8785e482c3cc4e5c8892",
+    "url": "/static/js/main.bd7c65cb.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -106,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fb2b31deac53b5eced4eb7b0aaac4986",
     "url": "/static/media/envelope.fb2b31de.gif"
+  },
+  {
+    "revision": "3378637bbfa7e632706b97b0109426d3",
+    "url": "/static/media/halloween_gif.3378637b.gif"
   },
   {
     "revision": "8b94b1515f3fb7c5bcc8623f00c4c643",
