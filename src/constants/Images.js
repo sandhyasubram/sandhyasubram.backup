@@ -21,8 +21,14 @@ const Images = {
     {
       TITLE: "Doodle Yoga",
       IMAGE_SOURCE: "doodle_yoga.jpg",
-      LINK: "https://dribbble.com/sandhya_subram",
+      LINK: "https://dribbble.com/shots/14484387-Doodle-Yoga-Logo-Design",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },  
+    {
+      TITLE: "Happy Halloween",
+      IMAGE_SOURCE: "halloween_gif.gif",
+      LINK: "https://dribbble.com/shots/14490274-Halloween-Pumpkin-Dark-Light-mode",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Couple Anniversary",
@@ -77,12 +83,6 @@ const Images = {
       IMAGE_SOURCE: "dribbble-elephant.jpg",
       LINK: "https://dribbble.com/shots/14091136-Minimal-Dribbble-Elephant",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
-    },
-    {
-      TITLE: "Happy Halloween",
-      IMAGE_SOURCE: "halloween_gif.gif",
-      LINK: "https://dribbble.com/sandhya_subram",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
       TITLE: "Inclusive signup form",
