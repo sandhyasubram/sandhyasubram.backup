@@ -19,6 +19,12 @@ const Images = {
       CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE_WEB.FILTER],
     }, 
     {
+      TITLE: "Couple Anniversary",
+      IMAGE_SOURCE: "couple_gif.gif",
+      LINK: "https://dribbble.com/shots/14507081-Cute-Chibi-Couple",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
+    },
+    {
       TITLE: "Doodle Yoga",
       IMAGE_SOURCE: "doodle_yoga.jpg",
       LINK: "https://dribbble.com/shots/14484387-Doodle-Yoga-Logo-Design",
@@ -28,12 +34,6 @@ const Images = {
       TITLE: "Happy Halloween",
       IMAGE_SOURCE: "halloween_gif.gif",
       LINK: "https://dribbble.com/shots/14490274-Halloween-Pumpkin-Dark-Light-mode",
-      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
-    },
-    {
-      TITLE: "Couple Anniversary",
-      IMAGE_SOURCE: "couple_gif.gif",
-      LINK: "https://dribbble.com/sandhya_subram",
       CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     },
     {
