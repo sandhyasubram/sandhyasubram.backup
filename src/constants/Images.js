@@ -8,7 +8,7 @@ const Images = {
   DESIGNS: [
     {
       TITLE: "3D Ebook Flip Animation",
-      IMAGE_SOURCE: "3d-transform.jpg",
+      IMAGE_SOURCE: "3d-transform.gif",
       LINK: "https://dribbble.com/shots/14631976-3D-Ebook-Flip-Animation-in-Adobe-XD",
       CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE_WEB.FILTER, Strings.IMAGE_CATEGORY.ANIMATION.FILTER],
     }, 
