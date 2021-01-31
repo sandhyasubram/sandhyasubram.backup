@@ -17,7 +17,13 @@ const Images = {
       IMAGE_SOURCE: "podcasts.jpg",
       LINK: "https://dribbble.com/shots/14121384-Podcasts-App-Design",
       CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE_WEB.FILTER],
-    }, 
+    },   
+    {
+      TITLE: "Spade Aesthetics Logo",
+      IMAGE_SOURCE: "spade-dribbble@2x.jpg",
+      LINK: "https://dribbble.com/shots/15036194-Spade-Aesthetics-Logo-Design",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    },
     {
       TITLE: "Speed Test App",
       IMAGE_SOURCE: "speedtest.jpg",
