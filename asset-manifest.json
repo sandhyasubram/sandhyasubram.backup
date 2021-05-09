@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.50aff39a.chunk.css",
-    "main.js": "/static/js/main.0ce0f048.chunk.js",
-    "main.js.map": "/static/js/main.0ce0f048.chunk.js.map",
+    "main.js": "/static/js/main.52bf8701.chunk.js",
+    "main.js.map": "/static/js/main.52bf8701.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
     "static/js/2.06625184.chunk.js": "/static/js/2.06625184.chunk.js",
     "static/js/2.06625184.chunk.js.map": "/static/js/2.06625184.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6955e8a0db0dd41c9be9f0a223943e4e.js": "/precache-manifest.6955e8a0db0dd41c9be9f0a223943e4e.js",
+    "precache-manifest.24c4b3849fd84ac69780f835e9485700.js": "/precache-manifest.24c4b3849fd84ac69780f835e9485700.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.50aff39a.chunk.css.map": "/static/css/main.50aff39a.chunk.css.map",
     "static/js/2.06625184.chunk.js.LICENSE.txt": "/static/js/2.06625184.chunk.js.LICENSE.txt",
@@ -42,6 +42,7 @@
     "static/media/presents.jpg": "/static/media/presents.114082ef.jpg",
     "static/media/reader-app-homepage.jpg": "/static/media/reader-app-homepage.f730adef.jpg",
     "static/media/rounded-ux.png": "/static/media/rounded-ux.8c71ef2b.png",
+    "static/media/shri-viswa-dwarakaa.png": "/static/media/shri-viswa-dwarakaa.c8a44a64.png",
     "static/media/sign-up.jpg": "/static/media/sign-up.bbd49e2e.jpg",
     "static/media/skyrocket.jpg": "/static/media/skyrocket.740908d9.jpg",
     "static/media/snappy_toggle_button.gif": "/static/media/snappy_toggle_button.6dca4b01.gif",
@@ -55,6 +56,6 @@
     "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.06625184.chunk.js",
     "static/css/main.50aff39a.chunk.css",
-    "static/js/main.0ce0f048.chunk.js"
+    "static/js/main.52bf8701.chunk.js"
   ]
 }

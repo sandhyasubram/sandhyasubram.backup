@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22fde2a28248301a69cc160d2a592bba",
+    "revision": "b6cb26f8535796d829d900cd01f2cd1b",
     "url": "/index.html"
   },
   {
-    "revision": "5f921850cc389a0192f9",
+    "revision": "4e8604e416a37a49bcfa",
     "url": "/static/css/main.50aff39a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.06625184.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f921850cc389a0192f9",
-    "url": "/static/js/main.0ce0f048.chunk.js"
+    "revision": "4e8604e416a37a49bcfa",
+    "url": "/static/js/main.52bf8701.chunk.js"
   },
   {
     "revision": "b4ba650b238755144e2a",
@@ -162,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8c71ef2b829d5131d037362c2bd4ffd2",
     "url": "/static/media/rounded-ux.8c71ef2b.png"
+  },
+  {
+    "revision": "c8a44a646d5a9a9bd077e6c4f7f4dca8",
+    "url": "/static/media/shri-viswa-dwarakaa.c8a44a64.png"
   },
   {
     "revision": "bbd49e2e37abc85763aa6222cc516944",
