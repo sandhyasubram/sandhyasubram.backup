@@ -19,6 +19,12 @@ const Images = {
       CATEGORY: [Strings.IMAGE_CATEGORY.MOBILE_WEB.FILTER],
     },   
     {
+      TITLE: "Shri Viswa Dwarakaa",
+      IMAGE_SOURCE: "shri-viswa-dwarakaa.png",
+      LINK: "https://dribbble.com/sandhya_subram",
+      CATEGORY: [Strings.IMAGE_CATEGORY.VECTOR.FILTER],
+    }, 
+    {
       TITLE: "Spade Aesthetics Logo",
       IMAGE_SOURCE: "spade-dribbble@2x.jpg",
       LINK: "https://dribbble.com/shots/15036194-Spade-Aesthetics-Logo-Design",
